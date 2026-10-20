@@ -1,4 +1,0 @@
-metodo,MAE_px_media,RMSE_px_media,FDE_px_media,erro_max_px_media,desloc_real_px_media,desloc_prev_px_media,erro_desloc_px_media,MAE_px_desvio,RMSE_px_desvio,FDE_px_desvio,erro_max_px_desvio,desloc_real_px_desvio,desloc_prev_px_desvio,erro_desloc_px_desvio,MAE_mediana
-EKF,13.67,16.68,31.52,32.51,134.81,129.29,24.67,5.23,6.54,15.73,14.23,17.25,33.40,14.31,13.31
-LSTM,11.19,12.82,20.81,21.32,134.81,127.44,13.81,4.94,5.73,8.36,8.52,17.25,10.22,8.96,10.41
-GRU,11.07,12.54,19.25,19.85,134.81,132.23,13.16,5.44,6.23,8.47,8.87,17.25,9.82,8.92,10.50
