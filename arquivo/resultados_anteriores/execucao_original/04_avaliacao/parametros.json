@@ -1,0 +1,29 @@
+{
+  "fps": 25,
+  "quadros": 350,
+  "seed_video": 7,
+  "oclusao_quadros": [
+    128,
+    184
+  ],
+  "sigma_obs_px": 1.0,
+  "ekf": {
+    "modelo": "CTRV [x,y,v,theta,omega]",
+    "q_v": 1.0,
+    "q_w": 0.03,
+    "tau": 0.7
+  },
+  "redes": {
+    "janela": 10,
+    "unidades_ocultas": 32,
+    "epocas": 4,
+    "trajetorias_treino": 40,
+    "otimizador": "Adam lr=4e-3 (cosseno), clip=1.0",
+    "perda": "MSE",
+    "normalizacao": {
+      "entrada_px": 10.0,
+      "saida_px": 3.0
+    },
+    "predicao": "recursiva"
+  }
+}
