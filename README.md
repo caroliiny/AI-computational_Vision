@@ -147,3 +147,23 @@ Eles podem ser executados com:
 python EKF\ekf.py LSTM_P3\trajetoria_teste.csv resultados\ekf_teste.csv
 python GRU\gru.py LSTM_P3\trajetoria_teste.csv resultados\gru_teste.csv
 ```
+
+## Comparação final — Sthef
+
+O script avaliar_comparacao.py compara EKF, LSTM, GRU e Transformer
+nos mesmos quadros de oclusão do vídeo sintético.
+
+Calcula erro médio euclidiano, RMSE de posição, erro final e erro
+máximo, em pixels. Gera em 04_avaliacao:
+
+- comparacao_final.csv
+- erros_comparacao_final.csv
+- comparacao_final.png
+
+A avaliação é executada automaticamente por executar.ps1 após o
+Transformer.
+
+Os protocolos de treinamento são diferentes: LSTM e GRU usam
+trajetórias sintéticas independentes; o Transformer usa o histórico
+anterior à primeira oclusão. A comparação não inclui vídeo real
+nem os resultados Monte Carlo.

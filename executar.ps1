@@ -1,4 +1,4 @@
-param(
+﻿param(
     [switch]$Rapido
 )
 
@@ -55,7 +55,7 @@ if ($LASTEXITCODE -ne 0) {
 
 $avaliacaoPath = Join-Path $repoRoot "avaliar_comparacao.py"
 
-Write-Host "Gerando a comparação final dos quatro métodos..."
+Write-Host "Gerando a comparacao final dos quatro metodos..."
 & python $avaliacaoPath $outputPath
 if ($LASTEXITCODE -ne 0) {
     throw "A comparação final falhou. Os resultados anteriores foram preservados."
