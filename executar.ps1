@@ -53,6 +53,14 @@ if ($LASTEXITCODE -ne 0) {
     throw "The Transformer failed with exit code $LASTEXITCODE. Main pipeline results were preserved."
 }
 
+$avaliacaoPath = Join-Path $repoRoot "avaliar_comparacao.py"
+
+Write-Host "Gerando a comparação final dos quatro métodos..."
+& python $avaliacaoPath $outputPath
+if ($LASTEXITCODE -ne 0) {
+    throw "A comparação final falhou. Os resultados anteriores foram preservados."
+}
+
 Write-Host ""
 Write-Host "Run completed. Results:"
 Write-Host $outputPath
