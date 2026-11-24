@@ -72,7 +72,9 @@ AI-computational_Vision/
         └── teste_video_real/
             ├── video_teste.mp4                 <-- Vídeo original renomeado
             ├── processar_pose.py               <-- Script de extração (YOLOv8)
-            ├── comparar_modelos.py             <-- Teste da baseline EKF
+            ├── modelos_pose.py                 <-- EKF, LSTM, GRU, Transformer, T-GNN (COCO-17)
+            ├── avaliar_pose.py                 <-- Erro em pixels com oclusão artificial
+            ├── comparar_modelos.py             <-- Teste do EKF
             ├── testar_redes_temporais.py       <-- Teste LSTM e GRU
             ├── testar_transformer_tgnn.py      <-- Teste Transformer e T-GNN
             └── renderizar_video.py             <-- Geração do vídeo final anotado
@@ -98,8 +100,12 @@ python processar_pose.py
 
 ---
 
-### Passo 2: Avaliar a Baseline Cinemática (EKF)
-Calcula a predição cinemática estabilizada e calcula as métricas de ruído (*jittering*).
+> **Padrão COCO-17:** todos os métodos leem o mesmo formato (`keypoints (T,17,2)` + `visibility (T,17)`,
+> definido em `coco17.py` na raiz). O vídeo sintético (`01_video/pose_data.npz`) usa o mesmo formato.
+> Os métodos ficam em `modelos_pose.py`; o EKF é o de `EKF/ekf.py` (`rodar_ekf_pose`, um filtro por junta).
+
+### Passo 2: Avaliar o EKF
+Roda o EKF real (CTRV) em cada uma das 17 juntas e calcula as métricas de ruído (*jittering*).
 
 ```powershell
 python comparar_modelos.py
@@ -128,7 +134,20 @@ python testar_transformer_tgnn.py
 
 ---
 
-### Passo 5: Renderizar Vídeo Final Anotado
+### Passo 5: Erro em pixels (oclusão artificial)
+O vídeo real não tem gabarito, então `avaliar_pose.py` esconde grupos de juntas bem detectadas
+(braço, perna, cabeça) e mede o erro em pixels de cada método contra a detecção original.
+Compara Último valor, EKF, LSTM, GRU, Transformer e T-GNN.
+
+```powershell
+python avaliar_pose.py pose_data.npz --saida metricas_pose.csv
+```
+* **Saída esperada:** tabela no terminal e `metricas_pose.csv`. No `.npz` sintético há também o erro
+  na oclusão natural (atrás do pilar) contra a posição verdadeira.
+
+---
+
+### Passo 6: Renderizar Vídeo Final Anotado
 Gera o vídeo com a sobreposição das articulações em tempo real.
 
 ```powershell

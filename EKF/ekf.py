@@ -30,8 +30,6 @@ JANELA_BASE = 5                              # quadros usados pela linha de base
 # Estado: [x, y, v, theta, omega]  (modelo não linear - CTRV)
 H = np.array([[1, 0, 0, 0, 0],
               [0, 1, 0, 0, 0]], dtype=float)
-Q0 = np.diag(Q_DIAG)
-R0 = np.eye(2) * SIGMA_OBS ** 2
 
 
 def f(x, dt):
@@ -50,8 +48,13 @@ def jacobiana(x, dt):
                      [0, 0, 0, 0, 1]])
 
 
-def rodar_ekf(frames, z, visivel, conf=None):
-    """z: (T,2). Retorna estimativas (T,2) e nº de detecções rejeitadas."""
+def rodar_ekf(frames, z, visivel, conf=None, sigma_obs=SIGMA_OBS, q_diag=Q_DIAG):
+    """z: (T,2). Retorna estimativas (T,2) e nº de detecções rejeitadas.
+
+    sigma_obs e q_diag permitem ajustar o filtro à escala dos dados (ex.: pixels de vídeo real).
+    """
+    Q0 = np.diag(q_diag)
+    R0 = np.eye(2) * sigma_obs ** 2
     T = len(frames)
     idx_vis = np.where(visivel)[0]
     if len(idx_vis) < N_INIT:
@@ -59,7 +62,7 @@ def rodar_ekf(frames, z, visivel, conf=None):
     a, b = idx_vis[0], idx_vis[N_INIT - 1]
     d = (z[b] - z[a]) / (frames[b] - frames[a])
     x = np.array([z[b, 0], z[b, 1], np.hypot(*d), np.arctan2(d[1], d[0]), 0.0])
-    P = np.diag([SIGMA_OBS ** 2, SIGMA_OBS ** 2, 1.0, 0.1, 0.01])
+    P = np.diag([sigma_obs ** 2, sigma_obs ** 2, 1.0, 0.1, 0.01])
 
     est = np.zeros((T, 2))
     est[:b + 1] = np.where(np.isnan(z[:b + 1]), np.nan, z[:b + 1])
@@ -86,6 +89,28 @@ def rodar_ekf(frames, z, visivel, conf=None):
                 rej_seq += 1
         est[t] = x[:2]
     return est, rejeitadas
+
+
+def rodar_ekf_pose(kpts, vis, sigma_obs=3.0, q_diag=(0.5, 0.5, 0.5, 0.02, 1e-3)):
+    """EKF sobre um esqueleto COCO-17: um filtro independente por junta.
+
+    kpts: (T,17,2) em pixels; vis: (T,17) com 1 = detectada, 0 = ocluída.
+    Retorna (T,17,2): a trajetória filtrada, com a predição do EKF nas juntas ocluídas.
+    Juntas com poucos quadros visíveis (< N_INIT) são devolvidas sem alteração.
+    """
+    T, J, _ = kpts.shape
+    frames = np.arange(T)
+    est = kpts.astype(float).copy()
+    for j in range(J):
+        visivel = vis[:, j].astype(bool) & ~(kpts[:, j] == 0).all(axis=1)
+        if visivel.sum() < N_INIT:
+            continue
+        z = kpts[:, j].astype(float).copy()
+        z[~visivel] = np.nan
+        est_j, _ = rodar_ekf(frames, z, visivel, sigma_obs=sigma_obs, q_diag=list(q_diag))
+        ok = ~np.isnan(est_j).any(axis=1)
+        est[ok, j] = est_j[ok]
+    return est
 
 
 def linha_base(historico, n):

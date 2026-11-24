@@ -1,44 +1,17 @@
 import cv2
 import numpy as np
 
-# 1. Carregar dados extraídos
-data = np.load('pose_data.npz')
-kpts = data['keypoints']      # (N_frames, 17, 2)
-vis = data['visibility']       # (N_frames, 17)
-fps = int(data['fps'])
-width, height = data['dimensions']
+import modelos_pose  # noqa: F401  (ajusta o sys.path para coco17 e EKF; deve vir primeiro)
+from coco17 import ARESTAS as COCO_LIMBS, carregar_pose
+from ekf import rodar_ekf_pose
 
-# Conexões do esqueleto COCO (17 articulações)
-COCO_LIMBS = [
-    (0, 1), (0, 2), (1, 3), (2, 4),         # Cabeça
-    (5, 6), (5, 7), (7, 9), (6, 8), (8, 10), # Tronco e membros superiores
-    (5, 11), (6, 12), (11, 12),              # Anca
-    (11, 13), (13, 15), (12, 14), (14, 16)   # Membros inferiores
-]
+# 1. Carregar dados extraídos (padrão COCO-17)
+pose = carregar_pose('pose_data.npz')
+kpts, vis, fps = pose['kpts'], pose['vis'], pose['fps']
+width, height = pose['W'], pose['H']
 
-def simular_ekf_estavel(kpts_seq, vis_seq, max_vel=15.0):
-    N, J, _ = kpts_seq.shape
-    kpts_pred = np.copy(kpts_seq)
-    for j in range(J):
-        last_pos = None
-        last_vel = np.array([0.0, 0.0])
-        for t in range(N):
-            if vis_seq[t, j] == 1 and not (kpts_seq[t, j, 0] == 0 and kpts_seq[t, j, 1] == 0):
-                if last_pos is not None:
-                    vel = kpts_seq[t, j] - last_pos
-                    last_vel = np.clip(vel, -max_vel, max_vel)
-                last_pos = kpts_seq[t, j].astype(float).copy()
-                kpts_pred[t, j] = kpts_seq[t, j]
-            else:
-                if last_pos is not None:
-                    last_pos += last_vel
-                    kpts_pred[t, j] = last_pos.copy()
-                    last_vel *= 0.90
-                else:
-                    kpts_pred[t, j] = np.array([0.0, 0.0])
-    return kpts_pred
-
-kpts_estimados = simular_ekf_estavel(kpts, vis)
+# EKF real (um filtro por junta); só as juntas ocluídas usam a estimativa
+kpts_estimados = np.where((vis == 0)[..., None], rodar_ekf_pose(kpts, vis), kpts)
 
 # Configurar vídeo de saída
 cap = cv2.VideoCapture('video_teste.mp4')

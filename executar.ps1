@@ -61,6 +61,20 @@ if ($LASTEXITCODE -ne 0) {
     throw "A comparação final falhou. Os resultados anteriores foram preservados."
 }
 
+& python -c "import torch" 2>$null
+if ($LASTEXITCODE -eq 0) {
+    Write-Host "Avaliando os cinco metodos no padrao COCO-17 (erro em pixels)..."
+    $posePath = Join-Path $outputPath "01_video\pose_data.npz"
+    $poseCsv = Join-Path $outputPath "04_avaliacao\metricas_pose.csv"
+    $poseEpocas = if ($Rapido) { 30 } else { 150 }
+    & python (Join-Path $repoRoot "teste_video_real\avaliar_pose.py") $posePath --saida $poseCsv --epocas $poseEpocas
+    if ($LASTEXITCODE -ne 0) {
+        throw "A avaliacao COCO-17 falhou. Os resultados anteriores foram preservados."
+    }
+} else {
+    Write-Warning "PyTorch nao instalado: avaliacao COCO-17 ignorada (pip install -r requirements-extras.txt)."
+}
+
 Write-Host ""
 Write-Host "Run completed. Results:"
 Write-Host $outputPath

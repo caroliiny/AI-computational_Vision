@@ -34,7 +34,8 @@ Uso:
 Estrutura de saída (a mesma sugerida no documento do trabalho):
     saida/01_video/     video_sem_oclusao.mp4, video_sintetico.mp4 (limpos) e
                         video_sem_oclusao_dados.mp4, video_sintetico_dados.mp4 (com x,y na tela),
-                        trajetoria_real.csv, observacoes.csv, pose_real.csv
+                        trajetoria_real.csv, observacoes.csv, pose_real.csv e pose_data.npz
+                        (esqueleto COCO-17, o mesmo padrão do vídeo real; ver coco17.py)
     saida/02_ekf/       previsoes_ekf.csv
     saida/03_lstm/      previsoes_lstm.csv
     saida/03_gru/       previsoes_gru.csv
@@ -45,8 +46,10 @@ import argparse
 import csv
 import json
 import os
+import sys
 import time
 from dataclasses import dataclass
+from pathlib import Path
 
 import cv2
 import matplotlib
@@ -56,6 +59,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import font_manager
 from PIL import Image, ImageDraw, ImageFont
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))   # raiz do repositório (coco17.py)
+from coco17 import NOMES as COCO_NOMES
 
 # ============================================================================
 # 0. PARÂMETROS GERAIS
@@ -216,6 +222,44 @@ def esqueleto(cx, cy, Hc, dirx, fase, vel):
         j["cotovelo_" + lado] = (ex, ey)
         j["pulso_" + lado] = (ex + dirx * U2 * np.sin(b + 0.35), ey + U2 * np.cos(b + 0.35))
     return j
+
+
+def para_coco17(j, Hc):
+    """Converte o esqueleto lateral (dict) para o padrão COCO-17: array (17,2) na ordem de coco17.NOMES.
+
+    Vista lateral: ombros e quadris dos dois lados coincidem; olhos e orelhas ficam em torno da cabeça.
+    """
+    cab = np.asarray(j["cabeca"], float)
+
+    def cabeca(dx, dy):
+        return cab + np.array([dx, dy]) * Hc
+
+    om, qd = j["ombro"], j["quadril"]
+    return np.array([cabeca(0.030, 0.005), cabeca(0.020, -0.012), cabeca(0.032, -0.012),
+                     cabeca(-0.010, -0.002), cabeca(0.005, -0.002),
+                     om, om, j["cotovelo_e"], j["cotovelo_d"], j["pulso_e"], j["pulso_d"],
+                     qd, qd, j["joelho_e"], j["joelho_d"], j["tornozelo_e"], j["tornozelo_d"]], float)
+
+
+def salvar_pose_coco17(cen, pasta):
+    """pose_real.csv e pose_data.npz no padrão COCO-17 (mesmo formato do vídeo real, ver coco17.py).
+
+    Uma junta é 'ocluída' quando está atrás do pilar (que é opaco e vai do topo à base da cena).
+    keypoints = observação ruidosa (0,0 nas ocluídas); keypoints_verdade = posição exata.
+    """
+    verdade = np.stack([para_coco17(esqueleto(*cen.pos[i], cen.altura[i], 1.0, cen.fase[i], cen.vel[i]),
+                                    cen.altura[i]) for i in range(N)])
+    pe, pd = cen.pilar
+    vis = ((verdade[:, :, 0] < pe) | (verdade[:, :, 0] > pd)).astype(int)
+    obs = verdade + np.random.default_rng(cen.seed + 1).standard_normal(verdade.shape) * SIGMA_OBS
+    obs[vis == 0] = 0.0
+    np.savez(os.path.join(pasta, "pose_data.npz"), keypoints=obs, visibility=vis,
+             keypoints_verdade=verdade, fps=FPS, dimensions=(LARG, ALT))
+    cab = ["frame"] + [f"{n}_{s}" for n in COCO_NOMES for s in ("x", "y", "visivel")]
+    salvar_csv(os.path.join(pasta, "pose_real.csv"), cab,
+               [[i] + [v for k in range(17)
+                       for v in (f"{verdade[i, k, 0]:.2f}", f"{verdade[i, k, 1]:.2f}", int(vis[i, k]))]
+                for i in range(N)])
 
 
 # ============================================================================
@@ -484,13 +528,7 @@ def gerar_videos_e_dados(cen, pasta):
                [[i, "" if np.isnan(cen.obs[i, 0]) else f"{cen.obs[i, 0]:.2f}",
                  "" if np.isnan(cen.obs[i, 1]) else f"{cen.obs[i, 1]:.2f}", int(cen.visivel[i])]
                 for i in range(N)])
-    cab, linhas = ["frame"], []
-    for nome in JUNTAS:
-        cab += [f"{nome}_x", f"{nome}_y"]
-    for i in range(N):
-        j = esqueleto(*cen.pos[i], cen.altura[i], 1.0, cen.fase[i], cen.vel[i])
-        linhas.append([i] + [f"{v:.2f}" for nome in JUNTAS for v in j[nome]])
-    salvar_csv(os.path.join(pasta, "pose_real.csv"), cab, linhas)
+    salvar_pose_coco17(cen, pasta)
     return fundo, prgb, pm
 
 
