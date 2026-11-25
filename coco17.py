@@ -34,7 +34,7 @@ def carregar_pose(caminho):
         raise ValueError(f"{caminho}: esperado keypoints (T,17,2) e visibility (T,17) no padrão COCO-17; "
                          f"recebido {kpts.shape} e {vis.shape}.")
     W, H = (int(v) for v in d["dimensions"])
-    return {"kpts": kpts, "vis": vis, "W": W, "H": H, "fps": int(d["fps"]),
+    return {"kpts": kpts, "vis": vis, "W": W, "H": H, "fps": float(d["fps"]),
             "verdade": d["keypoints_verdade"].astype(float) if "keypoints_verdade" in d.files else None}
 
 

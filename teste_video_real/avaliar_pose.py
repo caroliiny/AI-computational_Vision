@@ -6,10 +6,11 @@ Avaliação com erro em pixels dos cinco métodos no padrão COCO-17 (vale para 
   - Oclusão NATURAL (só se o .npz tiver keypoints_verdade, i.e. vídeo sintético): erro nas juntas
     atrás do pilar contra a posição verdadeira.
 
-Uso: python avaliar_pose.py [pose_data.npz] [--saida metricas_pose.csv] [--epocas 150]
+Uso: python avaliar_pose.py [pose_data.npz] [--saida metricas.csv] [--epocas 150]
 """
 import argparse
 import csv
+from pathlib import Path
 
 from coco17 import carregar_pose, mascarar_oclusao
 from modelos_pose import erro_px, rodar_metodos
@@ -25,10 +26,11 @@ def avaliar(nome_cenario, kpts, vis, verdade, mascara, p, epocas, linhas):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("entrada", nargs="?", default="pose_data.npz")
-    ap.add_argument("--saida", default="metricas_pose.csv")
+    ap.add_argument("--saida", help="padrão: <entrada>_metricas.csv")
     ap.add_argument("--epocas", type=int, default=150)
     a = ap.parse_args()
 
+    a.saida = a.saida or f"{Path(a.entrada).stem}_metricas.csv"
     p = carregar_pose(a.entrada)
     linhas = []
 

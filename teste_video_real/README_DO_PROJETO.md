@@ -52,123 +52,93 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name
 
 ### 4. Instalar as Dependências do Projeto
 
-Com o `(pose_env)` ativado, atualize o `pip` e instale as bibliotecas necessárias:
+Com o `(pose_env)` ativado, instale as bibliotecas necessárias:
 
 ```powershell
 python -m pip install --upgrade pip
-pip install ultralytics opencv-python numpy matplotlib torch
+pip install -r ..\requirements.txt
 ```
 
 ---
 
-## 📂 Estrutura de Pastas do Projeto
+## 📂 Estrutura da Pasta
 
-Certifique-se de que os ficheiros estão organizados conforme a estrutura abaixo antes de iniciar os testes:
+Todos os scripts ficam em `teste_video_real\` e devem ser executados **de dentro dessa pasta**
+(`cd teste_video_real`). Eles usam `coco17.py` e `EKF\ekf.py` da raiz do repositório.
 
 ```text
-AI-computational_Vision/
-└── modelagem de oclusão/
-    └── código/
-        └── teste_video_real/
-            ├── video_teste.mp4                 <-- Vídeo original renomeado
-            ├── processar_pose.py               <-- Script de extração (YOLOv8)
-            ├── modelos_pose.py                 <-- EKF, LSTM, GRU, Transformer, T-GNN (COCO-17)
-            ├── avaliar_pose.py                 <-- Erro em pixels com oclusão artificial
-            ├── comparar_modelos.py             <-- Teste do EKF
-            ├── testar_redes_temporais.py       <-- Teste LSTM e GRU
-            ├── testar_transformer_tgnn.py      <-- Teste Transformer e T-GNN
-            └── renderizar_video.py             <-- Geração do vídeo final anotado
+teste_video_real/
+├── processar_pose.py          <-- Extração de keypoints (YOLOv8-pose)
+├── modelos_pose.py            <-- EKF, LSTM, GRU, Transformer, T-GNN (COCO-17)
+├── avaliar_pose.py            <-- Erro em pixels com oclusão artificial
+├── comparar_modelos.py        <-- Jitter do EKF
+├── testar_redes_temporais.py  <-- Jitter de LSTM e GRU
+├── testar_transformer_tgnn.py <-- Jitter de Transformer e T-GNN
+└── renderizar_video.py        <-- Vídeo final anotado
 ```
 
 ---
 
-## 🚀 Fluxo de Execução dos Scripts
+## 🎥 Como preparar um vídeo real
 
-Acesse a subpasta onde estão os scripts e o vídeo antes de rodar os comandos:
-
-```powershell
-cd "modelagem de oclusão\código\teste_video_real"
-```
-
-### Passo 1: Extrair Keypoints do Vídeo
-Lê o vídeo `video_teste.mp4`, aplica o detector YOLOv8x-Pose e salva os dados estruturados no arquivo `pose_data.npz`.
-
-```powershell
-python processar_pose.py
-```
-* **Saída esperada:** Ficheiro `pose_data.npz` gerado com os 754 quadros processados.
+* **Uma pessoa em foco** (o rastreio segue uma só; com várias pessoas pode trocar de alvo).
+* **Câmera fixa** (o modelo trabalha em pixels; movimento de câmera vira "movimento da pessoa").
+* **Corpo inteiro no quadro** na maior parte do tempo: o treino das redes usa só janelas de 10 quadros com as
+  17 juntas visíveis.
+* **Pelo menos ~300 quadros** e **com oclusões naturais** (pilar, objeto, saída parcial do quadro).
+* MP4 H.264, 720p–1080p, 25–30 fps constantes (converta se necessário:
+  `ffmpeg -i in.mp4 -r 30 -c:v libx264 out.mp4`).
 
 ---
 
-> **Padrão COCO-17:** todos os métodos leem o mesmo formato (`keypoints (T,17,2)` + `visibility (T,17)`,
-> definido em `coco17.py` na raiz). O vídeo sintético (`01_video/pose_data.npz`) usa o mesmo formato.
-> Os métodos ficam em `modelos_pose.py`; o EKF é o de `EKF/ekf.py` (`rodar_ekf_pose`, um filtro por junta).
+## 🚀 Fluxo de Execução (um vídeo qualquer)
 
-### Passo 2: Avaliar o EKF
-Roda o EKF real (CTRV) em cada uma das 17 juntas e calcula as métricas de ruído (*jittering*).
+Cada script recebe o vídeo/arquivo como argumento e nomeia a saída a partir do nome do vídeo,
+então **vídeos diferentes não se sobrescrevem**. Exemplo com `corrida.mp4` (sem argumento, usa `video_teste.mp4`):
 
 ```powershell
-python comparar_modelos.py
+cd teste_video_real
+
+# 1. Extrai o esqueleto -> corrida_pose.npz  (imprime taxa de oclusão e avisos de qualidade)
+python processar_pose.py corrida.mp4
+
+# 2. Métodos sobre o vídeo real (jitter) -> corrida_pose_*.png
+python comparar_modelos.py corrida_pose.npz
+python testar_redes_temporais.py corrida_pose.npz
+python testar_transformer_tgnn.py corrida_pose.npz
+
+# 3. Erro em pixels com oclusão artificial -> corrida_pose_metricas.csv
+python avaliar_pose.py corrida_pose.npz
+
+# 4. Vídeo anotado -> corrida_anotado.mp4
+python renderizar_video.py corrida.mp4
 ```
-* **Saída esperada:** Gráfico `trajetoria_pulso.png` e métricas impressas no terminal.
 
----
+Opções úteis: `processar_pose.py --conf 0.45` (limiar de confiança que define "ocluído"),
+`--modelo yolov8n-pose.pt` (muito mais rápido em CPU, menos preciso), `avaliar_pose.py --epocas 150`,
+e `--saida`/`--png`/`--pose` para escolher os nomes de saída.
 
-### Passo 3: Avaliar Redes Recorrentes (LSTM vs GRU)
-Treina as redes auto-regressivas em quadros visíveis e avalia o comportamento durante as oclusões.
+> **Padrão COCO-17:** todos os métodos leem `keypoints (T,17,2)` + `visibility (T,17)`
+> (definido em `coco17.py`). O vídeo sintético (`01_video/pose_data.npz`) usa o mesmo formato, e o EKF é o de
+> `EKF/ekf.py` (um filtro por junta).
 
-```powershell
-python testar_redes_temporais.py
-```
-* **Saída esperada:** Gráfico `comparativo_redes_temporais_treinadas.png`.
+### Como interpretar
 
----
-
-### Passo 4: Avaliar Modelos Avançados (Transformer vs T-GNN)
-Treina o mecanismo de autoatenção e a rede em grafo espacial baseada na topologia anatómica do esqueleto COCO.
-
-```powershell
-python testar_transformer_tgnn.py
-```
-* **Saída esperada:** Gráfico `comparativo_transformer_tgnn.png` e resumo final de métricas.
-
----
-
-### Passo 5: Erro em pixels (oclusão artificial)
-O vídeo real não tem gabarito, então `avaliar_pose.py` esconde grupos de juntas bem detectadas
-(braço, perna, cabeça) e mede o erro em pixels de cada método contra a detecção original.
-Compara Último valor, EKF, LSTM, GRU, Transformer e T-GNN.
-
-```powershell
-python avaliar_pose.py pose_data.npz --saida metricas_pose.csv
-```
-* **Saída esperada:** tabela no terminal e `metricas_pose.csv`. No `.npz` sintético há também o erro
-  na oclusão natural (atrás do pilar) contra a posição verdadeira.
-
----
-
-### Passo 6: Renderizar Vídeo Final Anotado
-Gera o vídeo com a sobreposição das articulações em tempo real.
-
-```powershell
-python renderizar_video.py
-```
-* **Saída esperada:** Vídeo `resultado_visual_benchmark.mp4` salvo na pasta.
-  * 🟢 **Verde:** Articulação visível (detetada pelo YOLO).
-  * 🔴 **Vermelho:** Articulação ocluída (estimada pelo modelo).
+* Vídeo real **não tem gabarito**. O erro em pixels de `avaliar_pose.py` compara cada método com a
+  *própria detecção do YOLO* escondida artificialmente; mede a capacidade de reconstruir o que o YOLO viu,
+  não a posição verdadeira.
+* "Ocluído" = junta com confiança do YOLO abaixo de `--conf`; esse limiar influencia os resultados.
+* Cores no vídeo anotado: 🟢 articulação visível (YOLO), 🔴 ocluída (estimada pelo EKF).
+* Os arquivos `*.npz`, `*.mp4`, `*.png` e `*.pt` são ignorados pelo git; guarde os vídeos reais fora do repositório.
 
 ---
 
 ## ❓ Resolução de Problemas Comuns
 
-1. **`Errno 2: No such file or directory` ao rodar um script:**
-   * **Causa:** O terminal está na pasta raiz e não dentro da subpasta `teste_video_real`.
-   * **Solução:** Execute `cd "modelagem de oclusão\código\teste_video_real"` no terminal.
-
-2. **`source : O termo 'source' não é reconhecido`:**
-   * **Causa:** O comando `source` é para Linux/macOS.
-   * **Solução:** No Windows utilize `.\pose_env\Scripts\activate`.
-
-3. **Curvas caindo para valores negativos nos gráficos:**
-   * **Causa:** Execução das redes sem o ciclo de treino prévio (`train_loop`).
-   * **Solução:** Certifique-se de executar as versões atualizadas dos scripts `testar_redes_temporais.py` e `testar_transformer_tgnn.py`.
+1. **`Nenhuma janela com as 17 juntas visíveis para treinar`:** a pessoa nunca aparece inteira por 11 quadros
+   seguidos. Use um vídeo com corpo inteiro ou reduza `--conf` em `processar_pose.py`.
+2. **`Vídeo curto demais para a oclusão artificial`:** o vídeo tem menos de 28 quadros.
+3. **`source : O termo 'source' não é reconhecido`:** use `.\pose_env\Scripts\activate` no Windows.
+4. **Curvas caindo para valores negativos:** execução das redes sem o ciclo de treino; use as versões atuais
+   dos scripts.
+5. **Lento em CPU:** use `--modelo yolov8n-pose.pt` na extração e `--epocas` menor na avaliação.

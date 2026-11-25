@@ -1,3 +1,12 @@
+"""Renderiza o vídeo anotado (verde = visível, vermelho = ocluído/estimado pelo EKF).
+
+Uso: python renderizar_video.py [video.mp4] [--pose pose.npz] [--saida saida.mp4]
+Sem --pose usa <video>_pose.npz; sem --saida grava <video>_anotado.mp4.
+"""
+import argparse
+import sys
+from pathlib import Path
+
 import cv2
 import numpy as np
 
@@ -5,8 +14,18 @@ import modelos_pose  # noqa: F401  (ajusta o sys.path para coco17 e EKF; deve vi
 from coco17 import ARESTAS as COCO_LIMBS, carregar_pose
 from ekf import rodar_ekf_pose
 
+ap = argparse.ArgumentParser()
+ap.add_argument("video", nargs="?", default="video_teste.mp4")
+ap.add_argument("--pose", help="padrão: <video>_pose.npz")
+ap.add_argument("--saida", help="padrão: <video>_anotado.mp4")
+a = ap.parse_args()
+
+stem = Path(a.video).stem
+pose_path = a.pose or f"{stem}_pose.npz"
+saida = a.saida or f"{stem}_anotado.mp4"
+
 # 1. Carregar dados extraídos (padrão COCO-17)
-pose = carregar_pose('pose_data.npz')
+pose = carregar_pose(pose_path)
 kpts, vis, fps = pose['kpts'], pose['vis'], pose['fps']
 width, height = pose['W'], pose['H']
 
@@ -14,12 +33,14 @@ width, height = pose['W'], pose['H']
 kpts_estimados = np.where((vis == 0)[..., None], rodar_ekf_pose(kpts, vis), kpts)
 
 # Configurar vídeo de saída
-cap = cv2.VideoCapture('video_teste.mp4')
+cap = cv2.VideoCapture(a.video)
+if not cap.isOpened():
+    sys.exit(f"Erro: não foi possível abrir o vídeo '{a.video}'.")
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('resultado_visual_benchmark.mp4', fourcc, fps, (width, height))
+out = cv2.VideoWriter(saida, fourcc, fps, (width, height))
 
 frame_idx = 0
-print("A renderizar o vídeo anotado...")
+print("Renderizando o vídeo anotado...")
 
 while cap.isOpened():
     ret, frame = cap.read()
@@ -55,4 +76,4 @@ while cap.isOpened():
 
 cap.release()
 out.release()
-print("Vídeo guardado com sucesso como 'resultado_visual_benchmark.mp4'.")
+print(f"Vídeo salvo como '{saida}'.")

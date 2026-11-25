@@ -187,3 +187,13 @@ def comparar_jitter(nomes, png, entrada="pose_data.npz"):
     plt.xlabel("Quadro"); plt.ylabel("Posição X (px)"); plt.legend(); plt.grid(True)
     plt.savefig(png)
     print(f"Gráfico salvo em '{png}'.")
+
+
+def executar_jitter(nomes, png_padrao):
+    """Linha de comando comum aos scripts de teste: python script.py [pose.npz] [--png saida.png]."""
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("pose", nargs="?", default="pose_data.npz", help="saída de processar_pose.py")
+    ap.add_argument("--png", help=f"padrão: <pose>_{png_padrao}")
+    a = ap.parse_args()
+    comparar_jitter(nomes, a.png or f"{Path(a.pose).stem}_{png_padrao}", a.pose)
