@@ -1,0 +1,60 @@
+{
+  "tipo_experimento": "exploratorio_video_real_com_pseudorrotulos",
+  "metodos": [
+    "EKF",
+    "LSTM",
+    "GRU",
+    "Transformer",
+    "T-GNN"
+  ],
+  "video": {
+    "video": "C:\\Users\\Aretuza\\IA - Computational_vision\\AI-computational_Vision\\experimentos_independentes\\video_real_pose\\video_teste.mp4",
+    "video_sha256": "a1afa48c42a4affbd8ee38134ceb96d00557b5edef762012aa7ae7da57971b04",
+    "frames": 754,
+    "fps": 50.0,
+    "largura": 768,
+    "altura": 432,
+    "detector_pose": "yolov8n-pose.pt",
+    "pesos_resolvidos": "yolov8n-pose.pt",
+    "versao_ultralytics": "8.4.204",
+    "limiar_confianca": 0.45,
+    "fracoes_keypoints_diretos_confiaveis": 0.6522078327352161,
+    "fator_escala_coordenadas": 0.3333333333333333,
+    "nota_rotulos": "Coordenadas do detector YOLO; lacunas de baixa confiança interpoladas. Pseudo-rótulos, não ground truth humano."
+  },
+  "split_temporal_frames": {
+    "treino": [
+      0,
+      452
+    ],
+    "validacao": [
+      462,
+      603
+    ],
+    "teste": [
+      613,
+      754
+    ]
+  },
+  "quadros_de_embargo_entre_splits": 10,
+  "tamanho_janela": 10,
+  "unidade_metricas": "pixels em coordenadas reescaladas; maior dimensão = 256",
+  "duracoes_oclusao_teste": [
+    5,
+    20
+  ],
+  "articulacoes_ocluiveis": [
+    9,
+    10,
+    15,
+    16
+  ],
+  "seeds": [
+    11
+  ],
+  "epocas_maximas": 15,
+  "dispositivo": "cpu",
+  "python": "3.12.10",
+  "pytorch": "2.15.0+cpu",
+  "limite": "As métricas medem concordância com pseudo-rótulos YOLO do mesmo vídeo; não são erro contra ground truth independente nem generalização a novos vídeos."
+}

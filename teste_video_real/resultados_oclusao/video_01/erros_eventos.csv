@@ -1,0 +1,187 @@
+metodo,horizonte,categoria,cenario,t0,junta,erro_px
+Último valor,5,quase_total,bloco_quase_total,161,right_shoulder,42.84
+Último valor,5,quase_total,bloco_quase_total,161,left_hip,56.51
+Último valor,10,quase_total,bloco_quase_total,161,left_hip,63.1
+Último valor,20,quase_total,bloco_quase_total,161,left_hip,59.97
+Último valor,5,quase_total,bloco_quase_total,161,right_hip,71.66
+Último valor,10,quase_total,bloco_quase_total,161,right_hip,72.62
+Último valor,20,quase_total,bloco_quase_total,161,right_hip,67.42
+Último valor,5,quase_total,bloco_quase_total,161,left_knee,47.81
+Último valor,10,quase_total,bloco_quase_total,161,left_knee,52.5
+Último valor,20,quase_total,bloco_quase_total,161,left_knee,53.5
+Último valor,5,quase_total,bloco_quase_total,161,right_knee,58.75
+Último valor,10,quase_total,bloco_quase_total,161,right_knee,60.26
+Último valor,20,quase_total,bloco_quase_total,161,right_knee,62.71
+Último valor,5,quase_total,bloco_quase_total,196,left_shoulder,42.3
+Último valor,5,quase_total,bloco_quase_total,196,right_shoulder,36.72
+Último valor,5,quase_total,bloco_quase_total,202,nose,32.15
+Último valor,10,quase_total,bloco_quase_total,202,nose,54.08
+Último valor,5,quase_total,bloco_quase_total,202,left_eye,33.24
+Último valor,10,quase_total,bloco_quase_total,202,left_eye,55.3
+Último valor,5,quase_total,bloco_quase_total,202,left_ear,35.26
+Último valor,10,quase_total,bloco_quase_total,202,left_ear,58.0
+Último valor,5,quase_total,bloco_quase_total,202,left_shoulder,35.82
+Último valor,10,quase_total,bloco_quase_total,202,left_shoulder,53.95
+Último valor,5,quase_total,bloco_quase_total,202,right_shoulder,24.02
+Último valor,10,quase_total,bloco_quase_total,202,right_shoulder,42.89
+Último valor,5,quase_total,bloco_quase_total,202,left_hip,46.65
+Último valor,10,quase_total,bloco_quase_total,202,left_hip,48.37
+Último valor,5,quase_total,bloco_quase_total,202,right_hip,72.55
+Último valor,10,quase_total,bloco_quase_total,202,right_hip,72.2
+Último valor,5,quase_total,bloco_quase_total,202,right_knee,54.87
+Último valor,10,quase_total,bloco_quase_total,202,right_knee,49.42
+EKF,5,quase_total,bloco_quase_total,161,right_shoulder,42.09
+EKF,5,quase_total,bloco_quase_total,161,left_hip,44.58
+EKF,10,quase_total,bloco_quase_total,161,left_hip,44.08
+EKF,20,quase_total,bloco_quase_total,161,left_hip,54.14
+EKF,5,quase_total,bloco_quase_total,161,right_hip,10.79
+EKF,10,quase_total,bloco_quase_total,161,right_hip,37.36
+EKF,20,quase_total,bloco_quase_total,161,right_hip,90.33
+EKF,5,quase_total,bloco_quase_total,161,left_knee,8.36
+EKF,10,quase_total,bloco_quase_total,161,left_knee,17.8
+EKF,20,quase_total,bloco_quase_total,161,left_knee,69.02
+EKF,5,quase_total,bloco_quase_total,161,right_knee,66.64
+EKF,10,quase_total,bloco_quase_total,161,right_knee,66.11
+EKF,20,quase_total,bloco_quase_total,161,right_knee,62.76
+EKF,5,quase_total,bloco_quase_total,196,left_shoulder,39.78
+EKF,5,quase_total,bloco_quase_total,196,right_shoulder,34.12
+EKF,5,quase_total,bloco_quase_total,202,nose,5.14
+EKF,10,quase_total,bloco_quase_total,202,nose,13.07
+EKF,5,quase_total,bloco_quase_total,202,left_eye,17.47
+EKF,10,quase_total,bloco_quase_total,202,left_eye,14.0
+EKF,5,quase_total,bloco_quase_total,202,left_ear,16.4
+EKF,10,quase_total,bloco_quase_total,202,left_ear,15.34
+EKF,5,quase_total,bloco_quase_total,202,left_shoulder,40.14
+EKF,10,quase_total,bloco_quase_total,202,left_shoulder,77.86
+EKF,5,quase_total,bloco_quase_total,202,right_shoulder,22.01
+EKF,10,quase_total,bloco_quase_total,202,right_shoulder,41.41
+EKF,5,quase_total,bloco_quase_total,202,left_hip,33.63
+EKF,10,quase_total,bloco_quase_total,202,left_hip,49.69
+EKF,5,quase_total,bloco_quase_total,202,right_hip,69.55
+EKF,10,quase_total,bloco_quase_total,202,right_hip,116.65
+EKF,5,quase_total,bloco_quase_total,202,right_knee,46.92
+EKF,10,quase_total,bloco_quase_total,202,right_knee,24.75
+LSTM,5,quase_total,bloco_quase_total,161,right_shoulder,43.57
+LSTM,5,quase_total,bloco_quase_total,161,left_hip,56.05
+LSTM,10,quase_total,bloco_quase_total,161,left_hip,64.82
+LSTM,20,quase_total,bloco_quase_total,161,left_hip,64.2
+LSTM,5,quase_total,bloco_quase_total,161,right_hip,71.97
+LSTM,10,quase_total,bloco_quase_total,161,right_hip,74.7
+LSTM,20,quase_total,bloco_quase_total,161,right_hip,72.33
+LSTM,5,quase_total,bloco_quase_total,161,left_knee,44.44
+LSTM,10,quase_total,bloco_quase_total,161,left_knee,46.01
+LSTM,20,quase_total,bloco_quase_total,161,left_knee,40.07
+LSTM,5,quase_total,bloco_quase_total,161,right_knee,57.32
+LSTM,10,quase_total,bloco_quase_total,161,right_knee,57.42
+LSTM,20,quase_total,bloco_quase_total,161,right_knee,57.11
+LSTM,5,quase_total,bloco_quase_total,196,left_shoulder,38.53
+LSTM,5,quase_total,bloco_quase_total,196,right_shoulder,30.99
+LSTM,5,quase_total,bloco_quase_total,202,nose,28.3
+LSTM,10,quase_total,bloco_quase_total,202,nose,47.99
+LSTM,5,quase_total,bloco_quase_total,202,left_eye,29.41
+LSTM,10,quase_total,bloco_quase_total,202,left_eye,49.34
+LSTM,5,quase_total,bloco_quase_total,202,left_ear,32.2
+LSTM,10,quase_total,bloco_quase_total,202,left_ear,53.58
+LSTM,5,quase_total,bloco_quase_total,202,left_shoulder,34.49
+LSTM,10,quase_total,bloco_quase_total,202,left_shoulder,50.71
+LSTM,5,quase_total,bloco_quase_total,202,right_shoulder,20.25
+LSTM,10,quase_total,bloco_quase_total,202,right_shoulder,34.57
+LSTM,5,quase_total,bloco_quase_total,202,left_hip,47.56
+LSTM,10,quase_total,bloco_quase_total,202,left_hip,46.91
+LSTM,5,quase_total,bloco_quase_total,202,right_hip,72.41
+LSTM,10,quase_total,bloco_quase_total,202,right_hip,70.8
+LSTM,5,quase_total,bloco_quase_total,202,right_knee,53.99
+LSTM,10,quase_total,bloco_quase_total,202,right_knee,47.53
+GRU,5,quase_total,bloco_quase_total,161,right_shoulder,56.46
+GRU,5,quase_total,bloco_quase_total,161,left_hip,65.85
+GRU,10,quase_total,bloco_quase_total,161,left_hip,84.33
+GRU,20,quase_total,bloco_quase_total,161,left_hip,91.82
+GRU,5,quase_total,bloco_quase_total,161,right_hip,80.13
+GRU,10,quase_total,bloco_quase_total,161,right_hip,91.18
+GRU,20,quase_total,bloco_quase_total,161,right_hip,96.8
+GRU,5,quase_total,bloco_quase_total,161,left_knee,50.25
+GRU,10,quase_total,bloco_quase_total,161,left_knee,58.61
+GRU,20,quase_total,bloco_quase_total,161,left_knee,58.95
+GRU,5,quase_total,bloco_quase_total,161,right_knee,61.26
+GRU,10,quase_total,bloco_quase_total,161,right_knee,65.53
+GRU,20,quase_total,bloco_quase_total,161,right_knee,68.12
+GRU,5,quase_total,bloco_quase_total,196,left_shoulder,13.82
+GRU,5,quase_total,bloco_quase_total,196,right_shoulder,12.22
+GRU,5,quase_total,bloco_quase_total,202,nose,12.28
+GRU,10,quase_total,bloco_quase_total,202,nose,15.2
+GRU,5,quase_total,bloco_quase_total,202,left_eye,15.67
+GRU,10,quase_total,bloco_quase_total,202,left_eye,20.22
+GRU,5,quase_total,bloco_quase_total,202,left_ear,12.55
+GRU,10,quase_total,bloco_quase_total,202,left_ear,14.8
+GRU,5,quase_total,bloco_quase_total,202,left_shoulder,20.38
+GRU,10,quase_total,bloco_quase_total,202,left_shoulder,17.68
+GRU,5,quase_total,bloco_quase_total,202,right_shoulder,19.28
+GRU,10,quase_total,bloco_quase_total,202,right_shoulder,13.61
+GRU,5,quase_total,bloco_quase_total,202,left_hip,50.13
+GRU,10,quase_total,bloco_quase_total,202,left_hip,47.0
+GRU,5,quase_total,bloco_quase_total,202,right_hip,77.23
+GRU,10,quase_total,bloco_quase_total,202,right_hip,77.06
+GRU,5,quase_total,bloco_quase_total,202,right_knee,59.95
+GRU,10,quase_total,bloco_quase_total,202,right_knee,57.53
+Transformer,5,quase_total,bloco_quase_total,161,right_shoulder,29.09
+Transformer,5,quase_total,bloco_quase_total,161,left_hip,43.96
+Transformer,10,quase_total,bloco_quase_total,161,left_hip,42.14
+Transformer,20,quase_total,bloco_quase_total,161,left_hip,38.94
+Transformer,5,quase_total,bloco_quase_total,161,right_hip,59.37
+Transformer,10,quase_total,bloco_quase_total,161,right_hip,48.23
+Transformer,20,quase_total,bloco_quase_total,161,right_hip,29.46
+Transformer,5,quase_total,bloco_quase_total,161,left_knee,40.76
+Transformer,10,quase_total,bloco_quase_total,161,left_knee,40.68
+Transformer,20,quase_total,bloco_quase_total,161,left_knee,41.62
+Transformer,5,quase_total,bloco_quase_total,161,right_knee,54.46
+Transformer,10,quase_total,bloco_quase_total,161,right_knee,52.72
+Transformer,20,quase_total,bloco_quase_total,161,right_knee,52.41
+Transformer,5,quase_total,bloco_quase_total,196,left_shoulder,32.64
+Transformer,5,quase_total,bloco_quase_total,196,right_shoulder,29.08
+Transformer,5,quase_total,bloco_quase_total,202,nose,16.6
+Transformer,10,quase_total,bloco_quase_total,202,nose,24.11
+Transformer,5,quase_total,bloco_quase_total,202,left_eye,12.58
+Transformer,10,quase_total,bloco_quase_total,202,left_eye,9.17
+Transformer,5,quase_total,bloco_quase_total,202,left_ear,12.9
+Transformer,10,quase_total,bloco_quase_total,202,left_ear,12.1
+Transformer,5,quase_total,bloco_quase_total,202,left_shoulder,21.59
+Transformer,10,quase_total,bloco_quase_total,202,left_shoulder,20.52
+Transformer,5,quase_total,bloco_quase_total,202,right_shoulder,13.64
+Transformer,10,quase_total,bloco_quase_total,202,right_shoulder,12.17
+Transformer,5,quase_total,bloco_quase_total,202,left_hip,52.36
+Transformer,10,quase_total,bloco_quase_total,202,left_hip,59.7
+Transformer,5,quase_total,bloco_quase_total,202,right_hip,69.2
+Transformer,10,quase_total,bloco_quase_total,202,right_hip,66.65
+Transformer,5,quase_total,bloco_quase_total,202,right_knee,58.34
+Transformer,10,quase_total,bloco_quase_total,202,right_knee,56.69
+T-GNN,5,quase_total,bloco_quase_total,161,right_shoulder,41.15
+T-GNN,5,quase_total,bloco_quase_total,161,left_hip,55.75
+T-GNN,10,quase_total,bloco_quase_total,161,left_hip,64.28
+T-GNN,20,quase_total,bloco_quase_total,161,left_hip,69.06
+T-GNN,5,quase_total,bloco_quase_total,161,right_hip,70.45
+T-GNN,10,quase_total,bloco_quase_total,161,right_hip,72.99
+T-GNN,20,quase_total,bloco_quase_total,161,right_hip,75.25
+T-GNN,5,quase_total,bloco_quase_total,161,left_knee,47.51
+T-GNN,10,quase_total,bloco_quase_total,161,left_knee,51.53
+T-GNN,20,quase_total,bloco_quase_total,161,left_knee,53.72
+T-GNN,5,quase_total,bloco_quase_total,161,right_knee,55.23
+T-GNN,10,quase_total,bloco_quase_total,161,right_knee,54.22
+T-GNN,20,quase_total,bloco_quase_total,161,right_knee,53.35
+T-GNN,5,quase_total,bloco_quase_total,196,left_shoulder,37.95
+T-GNN,5,quase_total,bloco_quase_total,196,right_shoulder,31.18
+T-GNN,5,quase_total,bloco_quase_total,202,nose,25.17
+T-GNN,10,quase_total,bloco_quase_total,202,nose,37.56
+T-GNN,5,quase_total,bloco_quase_total,202,left_eye,26.16
+T-GNN,10,quase_total,bloco_quase_total,202,left_eye,38.73
+T-GNN,5,quase_total,bloco_quase_total,202,left_ear,29.54
+T-GNN,10,quase_total,bloco_quase_total,202,left_ear,44.11
+T-GNN,5,quase_total,bloco_quase_total,202,left_shoulder,30.61
+T-GNN,10,quase_total,bloco_quase_total,202,left_shoulder,38.69
+T-GNN,5,quase_total,bloco_quase_total,202,right_shoulder,16.8
+T-GNN,10,quase_total,bloco_quase_total,202,right_shoulder,23.34
+T-GNN,5,quase_total,bloco_quase_total,202,left_hip,47.05
+T-GNN,10,quase_total,bloco_quase_total,202,left_hip,46.13
+T-GNN,5,quase_total,bloco_quase_total,202,right_hip,71.2
+T-GNN,10,quase_total,bloco_quase_total,202,right_hip,68.14
+T-GNN,5,quase_total,bloco_quase_total,202,right_knee,54.44
+T-GNN,10,quase_total,bloco_quase_total,202,right_knee,50.02

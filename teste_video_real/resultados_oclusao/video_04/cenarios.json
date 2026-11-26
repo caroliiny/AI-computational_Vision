@@ -1,0 +1,188 @@
+{
+  "fps": 30.001465367203025,
+  "largura": 1024,
+  "altura": 576,
+  "n_quadros": 778,
+  "semente": 0,
+  "cenarios": [
+    {
+      "id": 0,
+      "tipo": "muro_baixo_pernas",
+      "categoria": "parcial",
+      "ini": 25,
+      "fim": 80,
+      "retangulo": [
+        477,
+        396,
+        643,
+        576
+      ],
+      "fracao_cobertura": 0.042,
+      "juntas_cobertas": []
+    },
+    {
+      "id": 1,
+      "tipo": "pilar_estreito",
+      "categoria": "parcial",
+      "ini": 256,
+      "fim": 307,
+      "retangulo": [
+        276,
+        0,
+        312,
+        576
+      ],
+      "fracao_cobertura": 0.113,
+      "juntas_cobertas": []
+    },
+    {
+      "id": 2,
+      "tipo": "bloco_quase_total",
+      "categoria": "quase_total",
+      "ini": 333,
+      "fim": 370,
+      "retangulo": [
+        374,
+        99,
+        630,
+        576
+      ],
+      "fracao_cobertura": 0.844,
+      "juntas_cobertas": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee"
+      ]
+    },
+    {
+      "id": 3,
+      "tipo": "bloco_total",
+      "categoria": "total",
+      "ini": 396,
+      "fim": 450,
+      "retangulo": [
+        387,
+        0,
+        767,
+        576
+      ],
+      "fracao_cobertura": 1.0,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee"
+      ]
+    },
+    {
+      "id": 4,
+      "tipo": "pilar_largo",
+      "categoria": "grande",
+      "ini": 476,
+      "fim": 517,
+      "retangulo": [
+        398,
+        0,
+        525,
+        576
+      ],
+      "fracao_cobertura": 0.382,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_elbow",
+        "left_wrist",
+        "right_wrist"
+      ]
+    },
+    {
+      "id": 5,
+      "tipo": "muro_alto",
+      "categoria": "grande",
+      "ini": 543,
+      "fim": 598,
+      "retangulo": [
+        209,
+        311,
+        683,
+        576
+      ],
+      "fracao_cobertura": 0.615,
+      "juntas_cobertas": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 6,
+      "tipo": "pilar_largo",
+      "categoria": "grande",
+      "ini": 624,
+      "fim": 655,
+      "retangulo": [
+        333,
+        0,
+        464,
+        576
+      ],
+      "fracao_cobertura": 0.581,
+      "juntas_cobertas": [
+        "left_eye",
+        "right_ear",
+        "left_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ]
+    },
+    {
+      "id": 7,
+      "tipo": "muro_baixo_pernas",
+      "categoria": "parcial",
+      "ini": 681,
+      "fim": 723,
+      "retangulo": [
+        407,
+        369,
+        792,
+        576
+      ],
+      "fracao_cobertura": 0.152,
+      "juntas_cobertas": [
+        "left_knee",
+        "right_knee"
+      ]
+    }
+  ]
+}

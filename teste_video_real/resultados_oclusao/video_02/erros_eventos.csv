@@ -1,0 +1,307 @@
+metodo,horizonte,categoria,cenario,t0,junta,erro_px
+Último valor,5,quase_total,bloco_quase_total,149,nose,53.17
+Último valor,5,quase_total,bloco_quase_total,149,left_eye,53.62
+Último valor,5,quase_total,bloco_quase_total,149,right_eye,54.26
+Último valor,5,quase_total,bloco_quase_total,149,left_ear,53.58
+Último valor,5,quase_total,bloco_quase_total,149,right_ear,55.22
+Último valor,5,quase_total,bloco_quase_total,149,left_shoulder,48.06
+Último valor,5,quase_total,bloco_quase_total,149,right_shoulder,50.09
+Último valor,5,quase_total,bloco_quase_total,149,left_elbow,38.13
+Último valor,10,quase_total,bloco_quase_total,149,left_elbow,63.53
+Último valor,20,quase_total,bloco_quase_total,149,left_elbow,59.43
+Último valor,5,quase_total,bloco_quase_total,149,right_elbow,44.03
+Último valor,10,quase_total,bloco_quase_total,149,right_elbow,61.05
+Último valor,20,quase_total,bloco_quase_total,149,right_elbow,68.62
+Último valor,5,quase_total,bloco_quase_total,149,left_wrist,27.21
+Último valor,10,quase_total,bloco_quase_total,149,left_wrist,43.79
+Último valor,20,quase_total,bloco_quase_total,149,left_wrist,42.92
+Último valor,5,quase_total,bloco_quase_total,149,right_wrist,9.64
+Último valor,10,quase_total,bloco_quase_total,149,right_wrist,51.29
+Último valor,20,quase_total,bloco_quase_total,149,right_wrist,63.97
+Último valor,5,quase_total,bloco_quase_total,149,left_hip,36.15
+Último valor,10,quase_total,bloco_quase_total,149,left_hip,45.35
+Último valor,20,quase_total,bloco_quase_total,149,left_hip,45.72
+Último valor,5,quase_total,bloco_quase_total,149,right_hip,35.21
+Último valor,10,quase_total,bloco_quase_total,149,right_hip,46.37
+Último valor,20,quase_total,bloco_quase_total,149,right_hip,46.56
+Último valor,5,quase_total,bloco_quase_total,149,left_knee,33.76
+Último valor,10,quase_total,bloco_quase_total,149,left_knee,79.51
+Último valor,20,quase_total,bloco_quase_total,149,left_knee,30.5
+Último valor,5,quase_total,bloco_quase_total,149,right_knee,3.84
+Último valor,10,quase_total,bloco_quase_total,149,right_knee,5.17
+Último valor,20,quase_total,bloco_quase_total,149,right_knee,9.3
+Último valor,5,quase_total,bloco_quase_total,149,left_ankle,24.84
+Último valor,10,quase_total,bloco_quase_total,149,left_ankle,83.55
+Último valor,20,quase_total,bloco_quase_total,149,left_ankle,9.61
+Último valor,5,quase_total,bloco_quase_total,149,right_ankle,1.0
+Último valor,10,quase_total,bloco_quase_total,149,right_ankle,1.37
+Último valor,20,quase_total,bloco_quase_total,149,right_ankle,3.88
+Último valor,5,quase_total,bloco_quase_total,183,right_shoulder,45.66
+Último valor,10,quase_total,bloco_quase_total,183,right_shoulder,86.48
+Último valor,5,quase_total,bloco_quase_total,184,nose,54.72
+Último valor,10,quase_total,bloco_quase_total,184,nose,88.91
+Último valor,5,quase_total,bloco_quase_total,184,left_eye,55.18
+Último valor,10,quase_total,bloco_quase_total,184,left_eye,89.9
+Último valor,5,quase_total,bloco_quase_total,184,right_eye,55.51
+Último valor,10,quase_total,bloco_quase_total,184,right_eye,89.49
+Último valor,5,quase_total,bloco_quase_total,184,left_ear,53.99
+Último valor,10,quase_total,bloco_quase_total,184,left_ear,89.3
+Último valor,5,quase_total,bloco_quase_total,184,right_ear,54.71
+Último valor,10,quase_total,bloco_quase_total,184,right_ear,88.3
+Último valor,5,quase_total,bloco_quase_total,184,left_shoulder,53.73
+Último valor,10,quase_total,bloco_quase_total,184,left_shoulder,86.05
+EKF,5,quase_total,bloco_quase_total,149,nose,71.31
+EKF,5,quase_total,bloco_quase_total,149,left_eye,68.33
+EKF,5,quase_total,bloco_quase_total,149,right_eye,73.92
+EKF,5,quase_total,bloco_quase_total,149,left_ear,71.41
+EKF,5,quase_total,bloco_quase_total,149,right_ear,50.68
+EKF,5,quase_total,bloco_quase_total,149,left_shoulder,67.03
+EKF,5,quase_total,bloco_quase_total,149,right_shoulder,64.98
+EKF,5,quase_total,bloco_quase_total,149,left_elbow,58.83
+EKF,10,quase_total,bloco_quase_total,149,left_elbow,90.89
+EKF,20,quase_total,bloco_quase_total,149,left_elbow,90.13
+EKF,5,quase_total,bloco_quase_total,149,right_elbow,36.81
+EKF,10,quase_total,bloco_quase_total,149,right_elbow,54.9
+EKF,20,quase_total,bloco_quase_total,149,right_elbow,92.92
+EKF,5,quase_total,bloco_quase_total,149,left_wrist,16.83
+EKF,10,quase_total,bloco_quase_total,149,left_wrist,38.32
+EKF,20,quase_total,bloco_quase_total,149,left_wrist,54.78
+EKF,5,quase_total,bloco_quase_total,149,right_wrist,26.35
+EKF,10,quase_total,bloco_quase_total,149,right_wrist,55.7
+EKF,20,quase_total,bloco_quase_total,149,right_wrist,75.01
+EKF,5,quase_total,bloco_quase_total,149,left_hip,24.04
+EKF,10,quase_total,bloco_quase_total,149,left_hip,21.15
+EKF,20,quase_total,bloco_quase_total,149,left_hip,30.79
+EKF,5,quase_total,bloco_quase_total,149,right_hip,45.74
+EKF,10,quase_total,bloco_quase_total,149,right_hip,53.46
+EKF,20,quase_total,bloco_quase_total,149,right_hip,56.22
+EKF,5,quase_total,bloco_quase_total,149,left_knee,29.81
+EKF,10,quase_total,bloco_quase_total,149,left_knee,79.8
+EKF,20,quase_total,bloco_quase_total,149,left_knee,37.39
+EKF,5,quase_total,bloco_quase_total,149,right_knee,6.37
+EKF,10,quase_total,bloco_quase_total,149,right_knee,9.44
+EKF,20,quase_total,bloco_quase_total,149,right_knee,11.38
+EKF,5,quase_total,bloco_quase_total,149,left_ankle,23.46
+EKF,10,quase_total,bloco_quase_total,149,left_ankle,80.11
+EKF,20,quase_total,bloco_quase_total,149,left_ankle,3.97
+EKF,5,quase_total,bloco_quase_total,149,right_ankle,0.61
+EKF,10,quase_total,bloco_quase_total,149,right_ankle,1.7
+EKF,20,quase_total,bloco_quase_total,149,right_ankle,7.11
+EKF,5,quase_total,bloco_quase_total,183,right_shoulder,45.8
+EKF,10,quase_total,bloco_quase_total,183,right_shoulder,85.63
+EKF,5,quase_total,bloco_quase_total,184,nose,63.41
+EKF,10,quase_total,bloco_quase_total,184,nose,94.0
+EKF,5,quase_total,bloco_quase_total,184,left_eye,62.0
+EKF,10,quase_total,bloco_quase_total,184,left_eye,96.43
+EKF,5,quase_total,bloco_quase_total,184,right_eye,60.64
+EKF,10,quase_total,bloco_quase_total,184,right_eye,96.2
+EKF,5,quase_total,bloco_quase_total,184,left_ear,62.47
+EKF,10,quase_total,bloco_quase_total,184,left_ear,96.81
+EKF,5,quase_total,bloco_quase_total,184,right_ear,49.8
+EKF,10,quase_total,bloco_quase_total,184,right_ear,74.57
+EKF,5,quase_total,bloco_quase_total,184,left_shoulder,57.67
+EKF,10,quase_total,bloco_quase_total,184,left_shoulder,92.32
+LSTM,5,quase_total,bloco_quase_total,149,nose,55.31
+LSTM,5,quase_total,bloco_quase_total,149,left_eye,54.65
+LSTM,5,quase_total,bloco_quase_total,149,right_eye,58.67
+LSTM,5,quase_total,bloco_quase_total,149,left_ear,53.41
+LSTM,5,quase_total,bloco_quase_total,149,right_ear,57.4
+LSTM,5,quase_total,bloco_quase_total,149,left_shoulder,49.29
+LSTM,5,quase_total,bloco_quase_total,149,right_shoulder,52.86
+LSTM,5,quase_total,bloco_quase_total,149,left_elbow,39.55
+LSTM,10,quase_total,bloco_quase_total,149,left_elbow,61.71
+LSTM,20,quase_total,bloco_quase_total,149,left_elbow,39.87
+LSTM,5,quase_total,bloco_quase_total,149,right_elbow,51.01
+LSTM,10,quase_total,bloco_quase_total,149,right_elbow,69.73
+LSTM,20,quase_total,bloco_quase_total,149,right_elbow,64.13
+LSTM,5,quase_total,bloco_quase_total,149,left_wrist,29.87
+LSTM,10,quase_total,bloco_quase_total,149,left_wrist,47.41
+LSTM,20,quase_total,bloco_quase_total,149,left_wrist,34.69
+LSTM,5,quase_total,bloco_quase_total,149,right_wrist,14.8
+LSTM,10,quase_total,bloco_quase_total,149,right_wrist,55.82
+LSTM,20,quase_total,bloco_quase_total,149,right_wrist,65.37
+LSTM,5,quase_total,bloco_quase_total,149,left_hip,33.28
+LSTM,10,quase_total,bloco_quase_total,149,left_hip,38.09
+LSTM,20,quase_total,bloco_quase_total,149,left_hip,19.16
+LSTM,5,quase_total,bloco_quase_total,149,right_hip,33.7
+LSTM,10,quase_total,bloco_quase_total,149,right_hip,44.23
+LSTM,20,quase_total,bloco_quase_total,149,right_hip,29.0
+LSTM,5,quase_total,bloco_quase_total,149,left_knee,38.78
+LSTM,10,quase_total,bloco_quase_total,149,left_knee,89.55
+LSTM,20,quase_total,bloco_quase_total,149,left_knee,32.66
+LSTM,5,quase_total,bloco_quase_total,149,right_knee,11.71
+LSTM,10,quase_total,bloco_quase_total,149,right_knee,24.75
+LSTM,20,quase_total,bloco_quase_total,149,right_knee,32.46
+LSTM,5,quase_total,bloco_quase_total,149,left_ankle,31.89
+LSTM,10,quase_total,bloco_quase_total,149,left_ankle,91.96
+LSTM,20,quase_total,bloco_quase_total,149,left_ankle,16.01
+LSTM,5,quase_total,bloco_quase_total,149,right_ankle,12.21
+LSTM,10,quase_total,bloco_quase_total,149,right_ankle,25.38
+LSTM,20,quase_total,bloco_quase_total,149,right_ankle,47.84
+LSTM,5,quase_total,bloco_quase_total,183,right_shoulder,36.17
+LSTM,10,quase_total,bloco_quase_total,183,right_shoulder,67.74
+LSTM,5,quase_total,bloco_quase_total,184,nose,40.7
+LSTM,10,quase_total,bloco_quase_total,184,nose,61.7
+LSTM,5,quase_total,bloco_quase_total,184,left_eye,39.79
+LSTM,10,quase_total,bloco_quase_total,184,left_eye,60.39
+LSTM,5,quase_total,bloco_quase_total,184,right_eye,40.36
+LSTM,10,quase_total,bloco_quase_total,184,right_eye,59.58
+LSTM,5,quase_total,bloco_quase_total,184,left_ear,42.98
+LSTM,10,quase_total,bloco_quase_total,184,left_ear,68.32
+LSTM,5,quase_total,bloco_quase_total,184,right_ear,42.75
+LSTM,10,quase_total,bloco_quase_total,184,right_ear,64.99
+LSTM,5,quase_total,bloco_quase_total,184,left_shoulder,44.65
+LSTM,10,quase_total,bloco_quase_total,184,left_shoulder,69.16
+GRU,5,quase_total,bloco_quase_total,149,nose,47.34
+GRU,5,quase_total,bloco_quase_total,149,left_eye,47.23
+GRU,5,quase_total,bloco_quase_total,149,right_eye,47.88
+GRU,5,quase_total,bloco_quase_total,149,left_ear,43.59
+GRU,5,quase_total,bloco_quase_total,149,right_ear,48.43
+GRU,5,quase_total,bloco_quase_total,149,left_shoulder,44.02
+GRU,5,quase_total,bloco_quase_total,149,right_shoulder,43.53
+GRU,5,quase_total,bloco_quase_total,149,left_elbow,34.45
+GRU,10,quase_total,bloco_quase_total,149,left_elbow,56.09
+GRU,20,quase_total,bloco_quase_total,149,left_elbow,47.53
+GRU,5,quase_total,bloco_quase_total,149,right_elbow,38.98
+GRU,10,quase_total,bloco_quase_total,149,right_elbow,51.52
+GRU,20,quase_total,bloco_quase_total,149,right_elbow,50.7
+GRU,5,quase_total,bloco_quase_total,149,left_wrist,25.64
+GRU,10,quase_total,bloco_quase_total,149,left_wrist,33.22
+GRU,20,quase_total,bloco_quase_total,149,left_wrist,31.08
+GRU,5,quase_total,bloco_quase_total,149,right_wrist,7.56
+GRU,10,quase_total,bloco_quase_total,149,right_wrist,46.7
+GRU,20,quase_total,bloco_quase_total,149,right_wrist,58.59
+GRU,5,quase_total,bloco_quase_total,149,left_hip,35.54
+GRU,10,quase_total,bloco_quase_total,149,left_hip,45.65
+GRU,20,quase_total,bloco_quase_total,149,left_hip,43.72
+GRU,5,quase_total,bloco_quase_total,149,right_hip,33.38
+GRU,10,quase_total,bloco_quase_total,149,right_hip,43.06
+GRU,20,quase_total,bloco_quase_total,149,right_hip,41.52
+GRU,5,quase_total,bloco_quase_total,149,left_knee,37.67
+GRU,10,quase_total,bloco_quase_total,149,left_knee,89.12
+GRU,20,quase_total,bloco_quase_total,149,left_knee,46.89
+GRU,5,quase_total,bloco_quase_total,149,right_knee,4.61
+GRU,10,quase_total,bloco_quase_total,149,right_knee,8.85
+GRU,20,quase_total,bloco_quase_total,149,right_knee,7.19
+GRU,5,quase_total,bloco_quase_total,149,left_ankle,29.4
+GRU,10,quase_total,bloco_quase_total,149,left_ankle,91.23
+GRU,20,quase_total,bloco_quase_total,149,left_ankle,22.16
+GRU,5,quase_total,bloco_quase_total,149,right_ankle,4.7
+GRU,10,quase_total,bloco_quase_total,149,right_ankle,9.89
+GRU,20,quase_total,bloco_quase_total,149,right_ankle,13.32
+GRU,5,quase_total,bloco_quase_total,183,right_shoulder,41.14
+GRU,10,quase_total,bloco_quase_total,183,right_shoulder,78.11
+GRU,5,quase_total,bloco_quase_total,184,nose,45.42
+GRU,10,quase_total,bloco_quase_total,184,nose,72.09
+GRU,5,quase_total,bloco_quase_total,184,left_eye,46.59
+GRU,10,quase_total,bloco_quase_total,184,left_eye,74.47
+GRU,5,quase_total,bloco_quase_total,184,right_eye,46.5
+GRU,10,quase_total,bloco_quase_total,184,right_eye,73.17
+GRU,5,quase_total,bloco_quase_total,184,left_ear,48.14
+GRU,10,quase_total,bloco_quase_total,184,left_ear,79.69
+GRU,5,quase_total,bloco_quase_total,184,right_ear,46.93
+GRU,10,quase_total,bloco_quase_total,184,right_ear,74.45
+GRU,5,quase_total,bloco_quase_total,184,left_shoulder,48.56
+GRU,10,quase_total,bloco_quase_total,184,left_shoulder,77.08
+Transformer,5,quase_total,bloco_quase_total,149,nose,17.55
+Transformer,5,quase_total,bloco_quase_total,149,left_eye,16.36
+Transformer,5,quase_total,bloco_quase_total,149,right_eye,21.62
+Transformer,5,quase_total,bloco_quase_total,149,left_ear,4.05
+Transformer,5,quase_total,bloco_quase_total,149,right_ear,24.74
+Transformer,5,quase_total,bloco_quase_total,149,left_shoulder,18.58
+Transformer,5,quase_total,bloco_quase_total,149,right_shoulder,25.73
+Transformer,5,quase_total,bloco_quase_total,149,left_elbow,24.03
+Transformer,10,quase_total,bloco_quase_total,149,left_elbow,51.97
+Transformer,20,quase_total,bloco_quase_total,149,left_elbow,39.57
+Transformer,5,quase_total,bloco_quase_total,149,right_elbow,24.46
+Transformer,10,quase_total,bloco_quase_total,149,right_elbow,45.87
+Transformer,20,quase_total,bloco_quase_total,149,right_elbow,59.9
+Transformer,5,quase_total,bloco_quase_total,149,left_wrist,60.23
+Transformer,10,quase_total,bloco_quase_total,149,left_wrist,78.92
+Transformer,20,quase_total,bloco_quase_total,149,left_wrist,23.19
+Transformer,5,quase_total,bloco_quase_total,149,right_wrist,16.73
+Transformer,10,quase_total,bloco_quase_total,149,right_wrist,29.26
+Transformer,20,quase_total,bloco_quase_total,149,right_wrist,62.68
+Transformer,5,quase_total,bloco_quase_total,149,left_hip,25.28
+Transformer,10,quase_total,bloco_quase_total,149,left_hip,24.61
+Transformer,20,quase_total,bloco_quase_total,149,left_hip,29.62
+Transformer,5,quase_total,bloco_quase_total,149,right_hip,25.78
+Transformer,10,quase_total,bloco_quase_total,149,right_hip,29.97
+Transformer,20,quase_total,bloco_quase_total,149,right_hip,32.56
+Transformer,5,quase_total,bloco_quase_total,149,left_knee,19.11
+Transformer,10,quase_total,bloco_quase_total,149,left_knee,50.48
+Transformer,20,quase_total,bloco_quase_total,149,left_knee,5.96
+Transformer,5,quase_total,bloco_quase_total,149,right_knee,3.51
+Transformer,10,quase_total,bloco_quase_total,149,right_knee,10.47
+Transformer,20,quase_total,bloco_quase_total,149,right_knee,12.57
+Transformer,5,quase_total,bloco_quase_total,149,left_ankle,24.47
+Transformer,10,quase_total,bloco_quase_total,149,left_ankle,84.27
+Transformer,20,quase_total,bloco_quase_total,149,left_ankle,6.2
+Transformer,5,quase_total,bloco_quase_total,149,right_ankle,11.05
+Transformer,10,quase_total,bloco_quase_total,149,right_ankle,26.54
+Transformer,20,quase_total,bloco_quase_total,149,right_ankle,20.55
+Transformer,5,quase_total,bloco_quase_total,183,right_shoulder,40.85
+Transformer,10,quase_total,bloco_quase_total,183,right_shoulder,76.82
+Transformer,5,quase_total,bloco_quase_total,184,nose,46.0
+Transformer,10,quase_total,bloco_quase_total,184,nose,71.22
+Transformer,5,quase_total,bloco_quase_total,184,left_eye,44.66
+Transformer,10,quase_total,bloco_quase_total,184,left_eye,68.63
+Transformer,5,quase_total,bloco_quase_total,184,right_eye,46.86
+Transformer,10,quase_total,bloco_quase_total,184,right_eye,71.91
+Transformer,5,quase_total,bloco_quase_total,184,left_ear,49.39
+Transformer,10,quase_total,bloco_quase_total,184,left_ear,79.78
+Transformer,5,quase_total,bloco_quase_total,184,right_ear,47.19
+Transformer,10,quase_total,bloco_quase_total,184,right_ear,72.92
+Transformer,5,quase_total,bloco_quase_total,184,left_shoulder,48.34
+Transformer,10,quase_total,bloco_quase_total,184,left_shoulder,75.53
+T-GNN,5,quase_total,bloco_quase_total,149,nose,12.88
+T-GNN,5,quase_total,bloco_quase_total,149,left_eye,12.97
+T-GNN,5,quase_total,bloco_quase_total,149,right_eye,14.28
+T-GNN,5,quase_total,bloco_quase_total,149,left_ear,12.85
+T-GNN,5,quase_total,bloco_quase_total,149,right_ear,18.02
+T-GNN,5,quase_total,bloco_quase_total,149,left_shoulder,20.59
+T-GNN,5,quase_total,bloco_quase_total,149,right_shoulder,22.46
+T-GNN,5,quase_total,bloco_quase_total,149,left_elbow,10.5
+T-GNN,10,quase_total,bloco_quase_total,149,left_elbow,22.6
+T-GNN,20,quase_total,bloco_quase_total,149,left_elbow,16.09
+T-GNN,5,quase_total,bloco_quase_total,149,right_elbow,12.37
+T-GNN,10,quase_total,bloco_quase_total,149,right_elbow,22.36
+T-GNN,20,quase_total,bloco_quase_total,149,right_elbow,19.2
+T-GNN,5,quase_total,bloco_quase_total,149,left_wrist,49.45
+T-GNN,10,quase_total,bloco_quase_total,149,left_wrist,40.97
+T-GNN,20,quase_total,bloco_quase_total,149,left_wrist,19.62
+T-GNN,5,quase_total,bloco_quase_total,149,right_wrist,25.07
+T-GNN,10,quase_total,bloco_quase_total,149,right_wrist,26.75
+T-GNN,20,quase_total,bloco_quase_total,149,right_wrist,49.52
+T-GNN,5,quase_total,bloco_quase_total,149,left_hip,34.04
+T-GNN,10,quase_total,bloco_quase_total,149,left_hip,44.34
+T-GNN,20,quase_total,bloco_quase_total,149,left_hip,43.84
+T-GNN,5,quase_total,bloco_quase_total,149,right_hip,31.71
+T-GNN,10,quase_total,bloco_quase_total,149,right_hip,43.48
+T-GNN,20,quase_total,bloco_quase_total,149,right_hip,41.19
+T-GNN,5,quase_total,bloco_quase_total,149,left_knee,35.05
+T-GNN,10,quase_total,bloco_quase_total,149,left_knee,83.97
+T-GNN,20,quase_total,bloco_quase_total,149,left_knee,39.6
+T-GNN,5,quase_total,bloco_quase_total,149,right_knee,1.25
+T-GNN,10,quase_total,bloco_quase_total,149,right_knee,8.35
+T-GNN,20,quase_total,bloco_quase_total,149,right_knee,6.02
+T-GNN,5,quase_total,bloco_quase_total,149,left_ankle,29.77
+T-GNN,10,quase_total,bloco_quase_total,149,left_ankle,90.44
+T-GNN,20,quase_total,bloco_quase_total,149,left_ankle,13.03
+T-GNN,5,quase_total,bloco_quase_total,149,right_ankle,3.75
+T-GNN,10,quase_total,bloco_quase_total,149,right_ankle,10.18
+T-GNN,20,quase_total,bloco_quase_total,149,right_ankle,17.28
+T-GNN,5,quase_total,bloco_quase_total,183,right_shoulder,46.65
+T-GNN,10,quase_total,bloco_quase_total,183,right_shoulder,88.7
+T-GNN,5,quase_total,bloco_quase_total,184,nose,54.98
+T-GNN,10,quase_total,bloco_quase_total,184,nose,90.56
+T-GNN,5,quase_total,bloco_quase_total,184,left_eye,56.51
+T-GNN,10,quase_total,bloco_quase_total,184,left_eye,93.72
+T-GNN,5,quase_total,bloco_quase_total,184,right_eye,56.29
+T-GNN,10,quase_total,bloco_quase_total,184,right_eye,92.17
+T-GNN,5,quase_total,bloco_quase_total,184,left_ear,58.08
+T-GNN,10,quase_total,bloco_quase_total,184,left_ear,98.63
+T-GNN,5,quase_total,bloco_quase_total,184,right_ear,55.21
+T-GNN,10,quase_total,bloco_quase_total,184,right_ear,90.41
+T-GNN,5,quase_total,bloco_quase_total,184,left_shoulder,54.88
+T-GNN,10,quase_total,bloco_quase_total,184,left_shoulder,89.11

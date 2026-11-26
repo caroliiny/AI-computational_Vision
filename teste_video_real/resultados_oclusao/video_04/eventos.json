@@ -1,0 +1,310 @@
+{
+ "origens": [
+  473,
+  474,
+  475,
+  479,
+  481,
+  536,
+  537,
+  542,
+  551,
+  563,
+  622,
+  623,
+  628,
+  630,
+  633,
+  642,
+  680
+ ],
+ "eventos": [
+  {
+   "t0": 473,
+   "junta": 9,
+   "duracao": 47,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 474,
+   "junta": 7,
+   "duracao": 46,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 475,
+   "junta": 5,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 6,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 8,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 10,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 11,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 12,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 475,
+   "junta": 14,
+   "duracao": 31,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 479,
+   "junta": 4,
+   "duracao": 27,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 481,
+   "junta": 0,
+   "duracao": 25,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 481,
+   "junta": 2,
+   "duracao": 25,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 536,
+   "junta": 15,
+   "duracao": 65,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 537,
+   "junta": 9,
+   "duracao": 61,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 542,
+   "junta": 7,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 8,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 10,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 11,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 12,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 13,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 14,
+   "duracao": 56,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 542,
+   "junta": 16,
+   "duracao": 57,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 551,
+   "junta": 1,
+   "duracao": 11,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 563,
+   "junta": 1,
+   "duracao": 7,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 622,
+   "junta": 1,
+   "duracao": 51,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 623,
+   "junta": 0,
+   "duracao": 19,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 2,
+   "duracao": 19,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 7,
+   "duracao": 57,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 9,
+   "duracao": 61,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 10,
+   "duracao": 10,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 13,
+   "duracao": 34,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 623,
+   "junta": 14,
+   "duracao": 32,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 628,
+   "junta": 4,
+   "duracao": 14,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 628,
+   "junta": 11,
+   "duracao": 17,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 630,
+   "junta": 5,
+   "duracao": 13,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 633,
+   "junta": 6,
+   "duracao": 10,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 633,
+   "junta": 12,
+   "duracao": 12,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 642,
+   "junta": 8,
+   "duracao": 13,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 642,
+   "junta": 10,
+   "duracao": 13,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 680,
+   "junta": 13,
+   "duracao": 36,
+   "cenario": "muro_baixo_pernas",
+   "categoria": "parcial"
+  },
+  {
+   "t0": 680,
+   "junta": 14,
+   "duracao": 32,
+   "cenario": "muro_baixo_pernas",
+   "categoria": "parcial"
+  }
+ ]
+}

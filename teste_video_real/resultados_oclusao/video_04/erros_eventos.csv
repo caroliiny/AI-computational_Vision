@@ -1,0 +1,583 @@
+metodo,horizonte,categoria,cenario,t0,junta,erro_px
+Último valor,20,natural,natural,473,left_wrist,70.5
+Último valor,10,natural,natural,474,left_elbow,47.82
+Último valor,20,natural,natural,474,left_elbow,106.96
+Último valor,5,grande,pilar_largo,475,left_shoulder,37.54
+Último valor,10,grande,pilar_largo,475,left_shoulder,58.57
+Último valor,20,grande,pilar_largo,475,left_shoulder,108.29
+Último valor,5,grande,pilar_largo,475,right_shoulder,44.38
+Último valor,10,grande,pilar_largo,475,right_shoulder,96.51
+Último valor,20,grande,pilar_largo,475,right_shoulder,180.19
+Último valor,5,grande,pilar_largo,475,right_elbow,35.87
+Último valor,10,grande,pilar_largo,475,right_elbow,74.11
+Último valor,20,grande,pilar_largo,475,right_elbow,186.32
+Último valor,5,grande,pilar_largo,475,right_wrist,16.38
+Último valor,10,grande,pilar_largo,475,right_wrist,32.07
+Último valor,20,grande,pilar_largo,475,right_wrist,95.06
+Último valor,5,grande,pilar_largo,475,left_hip,14.85
+Último valor,10,grande,pilar_largo,475,left_hip,22.14
+Último valor,20,grande,pilar_largo,475,left_hip,23.71
+Último valor,5,grande,pilar_largo,475,right_hip,17.37
+Último valor,10,grande,pilar_largo,475,right_hip,42.34
+Último valor,20,grande,pilar_largo,475,right_hip,63.51
+Último valor,5,grande,pilar_largo,475,right_knee,6.85
+Último valor,10,grande,pilar_largo,475,right_knee,22.74
+Último valor,20,grande,pilar_largo,475,right_knee,42.6
+Último valor,5,grande,pilar_largo,479,right_ear,61.26
+Último valor,10,grande,pilar_largo,479,right_ear,113.24
+Último valor,20,grande,pilar_largo,479,right_ear,159.17
+Último valor,5,grande,pilar_largo,481,nose,51.63
+Último valor,10,grande,pilar_largo,481,nose,94.26
+Último valor,20,grande,pilar_largo,481,nose,125.81
+Último valor,5,grande,pilar_largo,481,right_eye,55.54
+Último valor,10,grande,pilar_largo,481,right_eye,99.53
+Último valor,20,grande,pilar_largo,481,right_eye,131.92
+Último valor,10,natural,natural,536,left_ankle,1.75
+Último valor,20,natural,natural,536,left_ankle,10.31
+Último valor,10,natural,natural,537,left_wrist,39.98
+Último valor,20,natural,natural,537,left_wrist,123.22
+Último valor,5,grande,muro_alto,542,left_elbow,15.75
+Último valor,10,grande,muro_alto,542,left_elbow,43.79
+Último valor,20,grande,muro_alto,542,left_elbow,67.52
+Último valor,5,grande,muro_alto,542,right_elbow,34.17
+Último valor,10,grande,muro_alto,542,right_elbow,93.79
+Último valor,20,grande,muro_alto,542,right_elbow,123.79
+Último valor,5,grande,muro_alto,542,right_wrist,46.68
+Último valor,10,grande,muro_alto,542,right_wrist,120.61
+Último valor,20,grande,muro_alto,542,right_wrist,118.55
+Último valor,5,grande,muro_alto,542,left_hip,8.7
+Último valor,10,grande,muro_alto,542,left_hip,7.4
+Último valor,20,grande,muro_alto,542,left_hip,7.55
+Último valor,5,grande,muro_alto,542,right_hip,7.78
+Último valor,10,grande,muro_alto,542,right_hip,9.22
+Último valor,20,grande,muro_alto,542,right_hip,9.09
+Último valor,5,grande,muro_alto,542,left_knee,3.08
+Último valor,10,grande,muro_alto,542,left_knee,5.71
+Último valor,20,grande,muro_alto,542,left_knee,16.31
+Último valor,5,grande,muro_alto,542,right_knee,1.55
+Último valor,10,grande,muro_alto,542,right_knee,6.65
+Último valor,20,grande,muro_alto,542,right_knee,4.3
+Último valor,5,grande,muro_alto,542,right_ankle,4.71
+Último valor,10,grande,muro_alto,542,right_ankle,8.25
+Último valor,20,grande,muro_alto,542,right_ankle,1.95
+Último valor,5,grande,muro_alto,551,left_eye,2.87
+Último valor,10,grande,muro_alto,551,left_eye,5.81
+Último valor,5,grande,muro_alto,563,left_eye,3.83
+Último valor,5,natural,natural,622,left_eye,8.91
+Último valor,5,grande,pilar_largo,623,nose,13.55
+Último valor,10,grande,pilar_largo,623,nose,43.1
+Último valor,5,grande,pilar_largo,623,right_eye,14.01
+Último valor,10,grande,pilar_largo,623,right_eye,44.34
+Último valor,5,grande,pilar_largo,623,left_elbow,19.29
+Último valor,5,grande,pilar_largo,623,left_wrist,28.59
+Último valor,5,grande,pilar_largo,623,right_wrist,49.64
+Último valor,10,grande,pilar_largo,623,right_wrist,98.98
+Último valor,5,grande,pilar_largo,623,left_knee,25.96
+Último valor,5,grande,pilar_largo,623,right_knee,8.65
+Último valor,10,grande,pilar_largo,623,right_knee,18.36
+Último valor,20,grande,pilar_largo,623,right_knee,21.73
+Último valor,5,grande,pilar_largo,628,right_ear,42.25
+Último valor,10,grande,pilar_largo,628,right_ear,90.1
+Último valor,5,grande,pilar_largo,628,left_hip,54.32
+Último valor,10,grande,pilar_largo,628,left_hip,55.55
+Último valor,5,grande,pilar_largo,630,left_shoulder,67.22
+Último valor,10,grande,pilar_largo,630,left_shoulder,98.86
+Último valor,5,grande,pilar_largo,633,right_shoulder,41.39
+Último valor,10,grande,pilar_largo,633,right_shoulder,92.16
+Último valor,5,grande,pilar_largo,633,right_hip,39.06
+Último valor,10,grande,pilar_largo,633,right_hip,43.98
+Último valor,5,grande,pilar_largo,642,right_elbow,60.27
+Último valor,10,grande,pilar_largo,642,right_elbow,115.85
+Último valor,5,grande,pilar_largo,642,right_wrist,61.17
+Último valor,10,grande,pilar_largo,642,right_wrist,62.35
+Último valor,5,parcial,muro_baixo_pernas,680,left_knee,6.4
+Último valor,10,parcial,muro_baixo_pernas,680,left_knee,9.17
+Último valor,20,parcial,muro_baixo_pernas,680,left_knee,27.91
+Último valor,5,parcial,muro_baixo_pernas,680,right_knee,15.19
+Último valor,10,parcial,muro_baixo_pernas,680,right_knee,15.96
+Último valor,20,parcial,muro_baixo_pernas,680,right_knee,19.03
+EKF,20,natural,natural,473,left_wrist,68.4
+EKF,10,natural,natural,474,left_elbow,46.05
+EKF,20,natural,natural,474,left_elbow,109.65
+EKF,5,grande,pilar_largo,475,left_shoulder,75.82
+EKF,10,grande,pilar_largo,475,left_shoulder,90.16
+EKF,20,grande,pilar_largo,475,left_shoulder,152.49
+EKF,5,grande,pilar_largo,475,right_shoulder,55.49
+EKF,10,grande,pilar_largo,475,right_shoulder,113.26
+EKF,20,grande,pilar_largo,475,right_shoulder,209.51
+EKF,5,grande,pilar_largo,475,right_elbow,17.87
+EKF,10,grande,pilar_largo,475,right_elbow,57.86
+EKF,20,grande,pilar_largo,475,right_elbow,210.73
+EKF,5,grande,pilar_largo,475,right_wrist,12.11
+EKF,10,grande,pilar_largo,475,right_wrist,27.38
+EKF,20,grande,pilar_largo,475,right_wrist,89.3
+EKF,5,grande,pilar_largo,475,left_hip,18.31
+EKF,10,grande,pilar_largo,475,left_hip,42.17
+EKF,20,grande,pilar_largo,475,left_hip,97.91
+EKF,5,grande,pilar_largo,475,right_hip,38.45
+EKF,10,grande,pilar_largo,475,right_hip,65.49
+EKF,20,grande,pilar_largo,475,right_hip,82.88
+EKF,5,grande,pilar_largo,475,right_knee,6.65
+EKF,10,grande,pilar_largo,475,right_knee,20.77
+EKF,20,grande,pilar_largo,475,right_knee,37.27
+EKF,5,grande,pilar_largo,479,right_ear,42.9
+EKF,10,grande,pilar_largo,479,right_ear,93.24
+EKF,20,grande,pilar_largo,479,right_ear,182.22
+EKF,5,grande,pilar_largo,481,nose,16.45
+EKF,10,grande,pilar_largo,481,nose,43.94
+EKF,20,grande,pilar_largo,481,nose,127.19
+EKF,5,grande,pilar_largo,481,right_eye,14.42
+EKF,10,grande,pilar_largo,481,right_eye,27.77
+EKF,20,grande,pilar_largo,481,right_eye,81.65
+EKF,10,natural,natural,536,left_ankle,138.23
+EKF,20,natural,natural,536,left_ankle,65.28
+EKF,10,natural,natural,537,left_wrist,38.9
+EKF,20,natural,natural,537,left_wrist,121.99
+EKF,5,grande,muro_alto,542,left_elbow,14.01
+EKF,10,grande,muro_alto,542,left_elbow,66.3
+EKF,20,grande,muro_alto,542,left_elbow,83.49
+EKF,5,grande,muro_alto,542,right_elbow,33.93
+EKF,10,grande,muro_alto,542,right_elbow,95.61
+EKF,20,grande,muro_alto,542,right_elbow,124.39
+EKF,5,grande,muro_alto,542,right_wrist,47.69
+EKF,10,grande,muro_alto,542,right_wrist,121.73
+EKF,20,grande,muro_alto,542,right_wrist,119.83
+EKF,5,grande,muro_alto,542,left_hip,4.91
+EKF,10,grande,muro_alto,542,left_hip,5.09
+EKF,20,grande,muro_alto,542,left_hip,3.71
+EKF,5,grande,muro_alto,542,right_hip,8.11
+EKF,10,grande,muro_alto,542,right_hip,9.26
+EKF,20,grande,muro_alto,542,right_hip,9.21
+EKF,5,grande,muro_alto,542,left_knee,4.49
+EKF,10,grande,muro_alto,542,left_knee,2.1
+EKF,20,grande,muro_alto,542,left_knee,18.82
+EKF,5,grande,muro_alto,542,right_knee,10.34
+EKF,10,grande,muro_alto,542,right_knee,26.83
+EKF,20,grande,muro_alto,542,right_knee,33.28
+EKF,5,grande,muro_alto,542,right_ankle,7.7
+EKF,10,grande,muro_alto,542,right_ankle,9.48
+EKF,20,grande,muro_alto,542,right_ankle,3.01
+EKF,5,grande,muro_alto,551,left_eye,3.82
+EKF,10,grande,muro_alto,551,left_eye,7.45
+EKF,5,grande,muro_alto,563,left_eye,3.43
+EKF,5,natural,natural,622,left_eye,9.24
+EKF,5,grande,pilar_largo,623,nose,14.82
+EKF,10,grande,pilar_largo,623,nose,43.41
+EKF,5,grande,pilar_largo,623,right_eye,14.41
+EKF,10,grande,pilar_largo,623,right_eye,43.71
+EKF,5,grande,pilar_largo,623,left_elbow,49.27
+EKF,5,grande,pilar_largo,623,left_wrist,37.97
+EKF,5,grande,pilar_largo,623,right_wrist,65.47
+EKF,10,grande,pilar_largo,623,right_wrist,115.84
+EKF,5,grande,pilar_largo,623,left_knee,75.17
+EKF,5,grande,pilar_largo,623,right_knee,7.63
+EKF,10,grande,pilar_largo,623,right_knee,16.31
+EKF,20,grande,pilar_largo,623,right_knee,18.6
+EKF,5,grande,pilar_largo,628,right_ear,35.62
+EKF,10,grande,pilar_largo,628,right_ear,78.04
+EKF,5,grande,pilar_largo,628,left_hip,22.71
+EKF,10,grande,pilar_largo,628,left_hip,20.77
+EKF,5,grande,pilar_largo,630,left_shoulder,77.31
+EKF,10,grande,pilar_largo,630,left_shoulder,113.85
+EKF,5,grande,pilar_largo,633,right_shoulder,67.04
+EKF,10,grande,pilar_largo,633,right_shoulder,115.31
+EKF,5,grande,pilar_largo,633,right_hip,33.33
+EKF,10,grande,pilar_largo,633,right_hip,29.55
+EKF,5,grande,pilar_largo,642,right_elbow,75.93
+EKF,10,grande,pilar_largo,642,right_elbow,146.24
+EKF,5,grande,pilar_largo,642,right_wrist,31.73
+EKF,10,grande,pilar_largo,642,right_wrist,63.23
+EKF,5,parcial,muro_baixo_pernas,680,left_knee,17.14
+EKF,10,parcial,muro_baixo_pernas,680,left_knee,29.76
+EKF,20,parcial,muro_baixo_pernas,680,left_knee,52.16
+EKF,5,parcial,muro_baixo_pernas,680,right_knee,14.59
+EKF,10,parcial,muro_baixo_pernas,680,right_knee,14.04
+EKF,20,parcial,muro_baixo_pernas,680,right_knee,16.49
+LSTM,20,natural,natural,473,left_wrist,142.9
+LSTM,10,natural,natural,474,left_elbow,56.33
+LSTM,20,natural,natural,474,left_elbow,157.36
+LSTM,5,grande,pilar_largo,475,left_shoulder,33.86
+LSTM,10,grande,pilar_largo,475,left_shoulder,62.66
+LSTM,20,grande,pilar_largo,475,left_shoulder,138.25
+LSTM,5,grande,pilar_largo,475,right_shoulder,32.63
+LSTM,10,grande,pilar_largo,475,right_shoulder,81.04
+LSTM,20,grande,pilar_largo,475,right_shoulder,166.63
+LSTM,5,grande,pilar_largo,475,right_elbow,36.58
+LSTM,10,grande,pilar_largo,475,right_elbow,81.35
+LSTM,20,grande,pilar_largo,475,right_elbow,215.17
+LSTM,5,grande,pilar_largo,475,right_wrist,33.08
+LSTM,10,grande,pilar_largo,475,right_wrist,67.4
+LSTM,20,grande,pilar_largo,475,right_wrist,154.97
+LSTM,5,grande,pilar_largo,475,left_hip,34.33
+LSTM,10,grande,pilar_largo,475,left_hip,62.48
+LSTM,20,grande,pilar_largo,475,left_hip,109.12
+LSTM,5,grande,pilar_largo,475,right_hip,24.27
+LSTM,10,grande,pilar_largo,475,right_hip,25.81
+LSTM,20,grande,pilar_largo,475,right_hip,52.09
+LSTM,5,grande,pilar_largo,475,right_knee,42.63
+LSTM,10,grande,pilar_largo,475,right_knee,77.63
+LSTM,20,grande,pilar_largo,475,right_knee,112.97
+LSTM,5,grande,pilar_largo,479,right_ear,92.54
+LSTM,10,grande,pilar_largo,479,right_ear,176.35
+LSTM,20,grande,pilar_largo,479,right_ear,287.26
+LSTM,5,grande,pilar_largo,481,nose,65.4
+LSTM,10,grande,pilar_largo,481,nose,123.28
+LSTM,20,grande,pilar_largo,481,nose,215.94
+LSTM,5,grande,pilar_largo,481,right_eye,60.57
+LSTM,10,grande,pilar_largo,481,right_eye,110.56
+LSTM,20,grande,pilar_largo,481,right_eye,165.1
+LSTM,10,natural,natural,536,left_ankle,95.68
+LSTM,20,natural,natural,536,left_ankle,183.01
+LSTM,10,natural,natural,537,left_wrist,51.93
+LSTM,20,natural,natural,537,left_wrist,64.81
+LSTM,5,grande,muro_alto,542,left_elbow,25.57
+LSTM,10,grande,muro_alto,542,left_elbow,48.91
+LSTM,20,grande,muro_alto,542,left_elbow,86.26
+LSTM,5,grande,muro_alto,542,right_elbow,24.14
+LSTM,10,grande,muro_alto,542,right_elbow,68.68
+LSTM,20,grande,muro_alto,542,right_elbow,76.88
+LSTM,5,grande,muro_alto,542,right_wrist,26.79
+LSTM,10,grande,muro_alto,542,right_wrist,79.7
+LSTM,20,grande,muro_alto,542,right_wrist,67.31
+LSTM,5,grande,muro_alto,542,left_hip,18.42
+LSTM,10,grande,muro_alto,542,left_hip,33.52
+LSTM,20,grande,muro_alto,542,left_hip,58.04
+LSTM,5,grande,muro_alto,542,right_hip,15.66
+LSTM,10,grande,muro_alto,542,right_hip,34.55
+LSTM,20,grande,muro_alto,542,right_hip,71.95
+LSTM,5,grande,muro_alto,542,left_knee,9.24
+LSTM,10,grande,muro_alto,542,left_knee,22.4
+LSTM,20,grande,muro_alto,542,left_knee,54.11
+LSTM,5,grande,muro_alto,542,right_knee,21.08
+LSTM,10,grande,muro_alto,542,right_knee,45.75
+LSTM,20,grande,muro_alto,542,right_knee,80.25
+LSTM,5,grande,muro_alto,542,right_ankle,151.45
+LSTM,10,grande,muro_alto,542,right_ankle,303.78
+LSTM,20,grande,muro_alto,542,right_ankle,619.71
+LSTM,5,grande,muro_alto,551,left_eye,36.06
+LSTM,10,grande,muro_alto,551,left_eye,69.7
+LSTM,5,grande,muro_alto,563,left_eye,36.21
+LSTM,5,natural,natural,622,left_eye,29.79
+LSTM,5,grande,pilar_largo,623,nose,24.48
+LSTM,10,grande,pilar_largo,623,nose,61.46
+LSTM,5,grande,pilar_largo,623,right_eye,15.09
+LSTM,10,grande,pilar_largo,623,right_eye,46.89
+LSTM,5,grande,pilar_largo,623,left_elbow,47.51
+LSTM,5,grande,pilar_largo,623,left_wrist,68.12
+LSTM,5,grande,pilar_largo,623,right_wrist,63.58
+LSTM,10,grande,pilar_largo,623,right_wrist,127.7
+LSTM,5,grande,pilar_largo,623,left_knee,29.2
+LSTM,5,grande,pilar_largo,623,right_knee,29.02
+LSTM,10,grande,pilar_largo,623,right_knee,58.98
+LSTM,20,grande,pilar_largo,623,right_knee,98.81
+LSTM,5,grande,pilar_largo,628,right_ear,34.73
+LSTM,10,grande,pilar_largo,628,right_ear,70.44
+LSTM,5,grande,pilar_largo,628,left_hip,71.14
+LSTM,10,grande,pilar_largo,628,left_hip,88.14
+LSTM,5,grande,pilar_largo,630,left_shoulder,68.58
+LSTM,10,grande,pilar_largo,630,left_shoulder,100.08
+LSTM,5,grande,pilar_largo,633,right_shoulder,37.69
+LSTM,10,grande,pilar_largo,633,right_shoulder,83.9
+LSTM,5,grande,pilar_largo,633,right_hip,56.86
+LSTM,10,grande,pilar_largo,633,right_hip,80.35
+LSTM,5,grande,pilar_largo,642,right_elbow,47.41
+LSTM,10,grande,pilar_largo,642,right_elbow,91.14
+LSTM,5,grande,pilar_largo,642,right_wrist,63.32
+LSTM,10,grande,pilar_largo,642,right_wrist,69.41
+LSTM,5,parcial,muro_baixo_pernas,680,left_knee,31.69
+LSTM,10,parcial,muro_baixo_pernas,680,left_knee,48.76
+LSTM,20,parcial,muro_baixo_pernas,680,left_knee,93.1
+LSTM,5,parcial,muro_baixo_pernas,680,right_knee,23.17
+LSTM,10,parcial,muro_baixo_pernas,680,right_knee,46.79
+LSTM,20,parcial,muro_baixo_pernas,680,right_knee,91.27
+GRU,20,natural,natural,473,left_wrist,300.49
+GRU,10,natural,natural,474,left_elbow,117.6
+GRU,20,natural,natural,474,left_elbow,274.17
+GRU,5,grande,pilar_largo,475,left_shoulder,51.94
+GRU,10,grande,pilar_largo,475,left_shoulder,93.66
+GRU,20,grande,pilar_largo,475,left_shoulder,198.26
+GRU,5,grande,pilar_largo,475,right_shoulder,34.05
+GRU,10,grande,pilar_largo,475,right_shoulder,78.5
+GRU,20,grande,pilar_largo,475,right_shoulder,161.9
+GRU,5,grande,pilar_largo,475,right_elbow,22.2
+GRU,10,grande,pilar_largo,475,right_elbow,48.5
+GRU,20,grande,pilar_largo,475,right_elbow,150.64
+GRU,5,grande,pilar_largo,475,right_wrist,9.95
+GRU,10,grande,pilar_largo,475,right_wrist,19.4
+GRU,20,grande,pilar_largo,475,right_wrist,44.95
+GRU,5,grande,pilar_largo,475,left_hip,15.77
+GRU,10,grande,pilar_largo,475,left_hip,28.23
+GRU,20,grande,pilar_largo,475,left_hip,41.16
+GRU,5,grande,pilar_largo,475,right_hip,28.14
+GRU,10,grande,pilar_largo,475,right_hip,32.74
+GRU,20,grande,pilar_largo,475,right_hip,53.37
+GRU,5,grande,pilar_largo,475,right_knee,27.68
+GRU,10,grande,pilar_largo,475,right_knee,55.77
+GRU,20,grande,pilar_largo,475,right_knee,76.71
+GRU,5,grande,pilar_largo,479,right_ear,64.32
+GRU,10,grande,pilar_largo,479,right_ear,124.24
+GRU,20,grande,pilar_largo,479,right_ear,193.47
+GRU,5,grande,pilar_largo,481,nose,53.68
+GRU,10,grande,pilar_largo,481,nose,93.35
+GRU,20,grande,pilar_largo,481,nose,141.7
+GRU,5,grande,pilar_largo,481,right_eye,52.77
+GRU,10,grande,pilar_largo,481,right_eye,92.76
+GRU,20,grande,pilar_largo,481,right_eye,130.05
+GRU,10,natural,natural,536,left_ankle,134.54
+GRU,20,natural,natural,536,left_ankle,222.11
+GRU,10,natural,natural,537,left_wrist,62.16
+GRU,20,natural,natural,537,left_wrist,107.2
+GRU,5,grande,muro_alto,542,left_elbow,35.41
+GRU,10,grande,muro_alto,542,left_elbow,66.77
+GRU,20,grande,muro_alto,542,left_elbow,160.33
+GRU,5,grande,muro_alto,542,right_elbow,9.6
+GRU,10,grande,muro_alto,542,right_elbow,40.64
+GRU,20,grande,muro_alto,542,right_elbow,31.62
+GRU,5,grande,muro_alto,542,right_wrist,8.29
+GRU,10,grande,muro_alto,542,right_wrist,48.31
+GRU,20,grande,muro_alto,542,right_wrist,50.56
+GRU,5,grande,muro_alto,542,left_hip,14.45
+GRU,10,grande,muro_alto,542,left_hip,19.46
+GRU,20,grande,muro_alto,542,left_hip,33.19
+GRU,5,grande,muro_alto,542,right_hip,12.22
+GRU,10,grande,muro_alto,542,right_hip,25.76
+GRU,20,grande,muro_alto,542,right_hip,39.04
+GRU,5,grande,muro_alto,542,left_knee,25.18
+GRU,10,grande,muro_alto,542,left_knee,45.41
+GRU,20,grande,muro_alto,542,left_knee,70.79
+GRU,5,grande,muro_alto,542,right_knee,17.98
+GRU,10,grande,muro_alto,542,right_knee,34.6
+GRU,20,grande,muro_alto,542,right_knee,33.3
+GRU,5,grande,muro_alto,542,right_ankle,90.55
+GRU,10,grande,muro_alto,542,right_ankle,183.38
+GRU,20,grande,muro_alto,542,right_ankle,374.29
+GRU,5,grande,muro_alto,551,left_eye,44.97
+GRU,10,grande,muro_alto,551,left_eye,88.16
+GRU,5,grande,muro_alto,563,left_eye,44.79
+GRU,5,natural,natural,622,left_eye,38.0
+GRU,5,grande,pilar_largo,623,nose,31.03
+GRU,10,grande,pilar_largo,623,nose,67.26
+GRU,5,grande,pilar_largo,623,right_eye,3.05
+GRU,10,grande,pilar_largo,623,right_eye,21.66
+GRU,5,grande,pilar_largo,623,left_elbow,65.96
+GRU,5,grande,pilar_largo,623,left_wrist,74.93
+GRU,5,grande,pilar_largo,623,right_wrist,78.92
+GRU,10,grande,pilar_largo,623,right_wrist,156.32
+GRU,5,grande,pilar_largo,623,left_knee,26.38
+GRU,5,grande,pilar_largo,623,right_knee,26.14
+GRU,10,grande,pilar_largo,623,right_knee,49.02
+GRU,20,grande,pilar_largo,623,right_knee,54.91
+GRU,5,grande,pilar_largo,628,right_ear,39.51
+GRU,10,grande,pilar_largo,628,right_ear,80.33
+GRU,5,grande,pilar_largo,628,left_hip,58.09
+GRU,10,grande,pilar_largo,628,left_hip,60.01
+GRU,5,grande,pilar_largo,630,left_shoulder,57.79
+GRU,10,grande,pilar_largo,630,left_shoulder,80.68
+GRU,5,grande,pilar_largo,633,right_shoulder,35.28
+GRU,10,grande,pilar_largo,633,right_shoulder,77.12
+GRU,5,grande,pilar_largo,633,right_hip,56.55
+GRU,10,grande,pilar_largo,633,right_hip,75.99
+GRU,5,grande,pilar_largo,642,right_elbow,27.49
+GRU,10,grande,pilar_largo,642,right_elbow,52.25
+GRU,5,grande,pilar_largo,642,right_wrist,55.54
+GRU,10,grande,pilar_largo,642,right_wrist,72.64
+GRU,5,parcial,muro_baixo_pernas,680,left_knee,28.07
+GRU,10,parcial,muro_baixo_pernas,680,left_knee,46.13
+GRU,20,parcial,muro_baixo_pernas,680,left_knee,85.82
+GRU,5,parcial,muro_baixo_pernas,680,right_knee,4.67
+GRU,10,parcial,muro_baixo_pernas,680,right_knee,14.85
+GRU,20,parcial,muro_baixo_pernas,680,right_knee,37.67
+Transformer,20,natural,natural,473,left_wrist,246.45
+Transformer,10,natural,natural,474,left_elbow,103.57
+Transformer,20,natural,natural,474,left_elbow,236.16
+Transformer,5,grande,pilar_largo,475,left_shoulder,47.71
+Transformer,10,grande,pilar_largo,475,left_shoulder,83.88
+Transformer,20,grande,pilar_largo,475,left_shoulder,164.34
+Transformer,5,grande,pilar_largo,475,right_shoulder,39.54
+Transformer,10,grande,pilar_largo,475,right_shoulder,86.31
+Transformer,20,grande,pilar_largo,475,right_shoulder,146.83
+Transformer,5,grande,pilar_largo,475,right_elbow,38.04
+Transformer,10,grande,pilar_largo,475,right_elbow,74.33
+Transformer,20,grande,pilar_largo,475,right_elbow,123.51
+Transformer,5,grande,pilar_largo,475,right_wrist,27.27
+Transformer,10,grande,pilar_largo,475,right_wrist,52.42
+Transformer,20,grande,pilar_largo,475,right_wrist,48.11
+Transformer,5,grande,pilar_largo,475,left_hip,13.7
+Transformer,10,grande,pilar_largo,475,left_hip,24.04
+Transformer,20,grande,pilar_largo,475,left_hip,48.59
+Transformer,5,grande,pilar_largo,475,right_hip,18.62
+Transformer,10,grande,pilar_largo,475,right_hip,21.77
+Transformer,20,grande,pilar_largo,475,right_hip,46.47
+Transformer,5,grande,pilar_largo,475,right_knee,21.32
+Transformer,10,grande,pilar_largo,475,right_knee,46.94
+Transformer,20,grande,pilar_largo,475,right_knee,66.86
+Transformer,5,grande,pilar_largo,479,right_ear,71.17
+Transformer,10,grande,pilar_largo,479,right_ear,136.2
+Transformer,20,grande,pilar_largo,479,right_ear,211.65
+Transformer,5,grande,pilar_largo,481,nose,63.38
+Transformer,10,grande,pilar_largo,481,nose,125.95
+Transformer,20,grande,pilar_largo,481,nose,196.45
+Transformer,5,grande,pilar_largo,481,right_eye,50.98
+Transformer,10,grande,pilar_largo,481,right_eye,101.01
+Transformer,20,grande,pilar_largo,481,right_eye,166.23
+Transformer,10,natural,natural,536,left_ankle,191.22
+Transformer,20,natural,natural,536,left_ankle,407.03
+Transformer,10,natural,natural,537,left_wrist,54.12
+Transformer,20,natural,natural,537,left_wrist,81.18
+Transformer,5,grande,muro_alto,542,left_elbow,24.05
+Transformer,10,grande,muro_alto,542,left_elbow,52.86
+Transformer,20,grande,muro_alto,542,left_elbow,69.72
+Transformer,5,grande,muro_alto,542,right_elbow,23.87
+Transformer,10,grande,muro_alto,542,right_elbow,68.84
+Transformer,20,grande,muro_alto,542,right_elbow,81.91
+Transformer,5,grande,muro_alto,542,right_wrist,32.24
+Transformer,10,grande,muro_alto,542,right_wrist,86.86
+Transformer,20,grande,muro_alto,542,right_wrist,94.91
+Transformer,5,grande,muro_alto,542,left_hip,8.63
+Transformer,10,grande,muro_alto,542,left_hip,8.03
+Transformer,20,grande,muro_alto,542,left_hip,7.83
+Transformer,5,grande,muro_alto,542,right_hip,5.27
+Transformer,10,grande,muro_alto,542,right_hip,13.32
+Transformer,20,grande,muro_alto,542,right_hip,32.51
+Transformer,5,grande,muro_alto,542,left_knee,4.3
+Transformer,10,grande,muro_alto,542,left_knee,6.04
+Transformer,20,grande,muro_alto,542,left_knee,18.27
+Transformer,5,grande,muro_alto,542,right_knee,15.99
+Transformer,10,grande,muro_alto,542,right_knee,33.97
+Transformer,20,grande,muro_alto,542,right_knee,56.37
+Transformer,5,grande,muro_alto,542,right_ankle,147.89
+Transformer,10,grande,muro_alto,542,right_ankle,291.51
+Transformer,20,grande,muro_alto,542,right_ankle,551.16
+Transformer,5,grande,muro_alto,551,left_eye,19.46
+Transformer,10,grande,muro_alto,551,left_eye,38.28
+Transformer,5,grande,muro_alto,563,left_eye,20.89
+Transformer,5,natural,natural,622,left_eye,15.33
+Transformer,5,grande,pilar_largo,623,nose,21.5
+Transformer,10,grande,pilar_largo,623,nose,59.98
+Transformer,5,grande,pilar_largo,623,right_eye,29.65
+Transformer,10,grande,pilar_largo,623,right_eye,69.79
+Transformer,5,grande,pilar_largo,623,left_elbow,30.89
+Transformer,5,grande,pilar_largo,623,left_wrist,27.07
+Transformer,5,grande,pilar_largo,623,right_wrist,54.92
+Transformer,10,grande,pilar_largo,623,right_wrist,111.45
+Transformer,5,grande,pilar_largo,623,left_knee,20.42
+Transformer,5,grande,pilar_largo,623,right_knee,25.48
+Transformer,10,grande,pilar_largo,623,right_knee,50.31
+Transformer,20,grande,pilar_largo,623,right_knee,79.74
+Transformer,5,grande,pilar_largo,628,right_ear,33.56
+Transformer,10,grande,pilar_largo,628,right_ear,70.6
+Transformer,5,grande,pilar_largo,628,left_hip,56.41
+Transformer,10,grande,pilar_largo,628,left_hip,58.4
+Transformer,5,grande,pilar_largo,630,left_shoulder,72.97
+Transformer,10,grande,pilar_largo,630,left_shoulder,106.31
+Transformer,5,grande,pilar_largo,633,right_shoulder,41.68
+Transformer,10,grande,pilar_largo,633,right_shoulder,90.91
+Transformer,5,grande,pilar_largo,633,right_hip,48.07
+Transformer,10,grande,pilar_largo,633,right_hip,61.61
+Transformer,5,grande,pilar_largo,642,right_elbow,46.9
+Transformer,10,grande,pilar_largo,642,right_elbow,90.44
+Transformer,5,grande,pilar_largo,642,right_wrist,70.78
+Transformer,10,grande,pilar_largo,642,right_wrist,81.35
+Transformer,5,parcial,muro_baixo_pernas,680,left_knee,15.5
+Transformer,10,parcial,muro_baixo_pernas,680,left_knee,24.87
+Transformer,20,parcial,muro_baixo_pernas,680,left_knee,51.48
+Transformer,5,parcial,muro_baixo_pernas,680,right_knee,16.01
+Transformer,10,parcial,muro_baixo_pernas,680,right_knee,26.84
+Transformer,20,parcial,muro_baixo_pernas,680,right_knee,42.93
+T-GNN,20,natural,natural,473,left_wrist,353.97
+T-GNN,10,natural,natural,474,left_elbow,160.88
+T-GNN,20,natural,natural,474,left_elbow,258.21
+T-GNN,5,grande,pilar_largo,475,left_shoulder,43.97
+T-GNN,10,grande,pilar_largo,475,left_shoulder,100.31
+T-GNN,20,grande,pilar_largo,475,left_shoulder,178.68
+T-GNN,5,grande,pilar_largo,475,right_shoulder,26.32
+T-GNN,10,grande,pilar_largo,475,right_shoulder,45.38
+T-GNN,20,grande,pilar_largo,475,right_shoulder,86.13
+T-GNN,5,grande,pilar_largo,475,right_elbow,17.09
+T-GNN,10,grande,pilar_largo,475,right_elbow,33.97
+T-GNN,20,grande,pilar_largo,475,right_elbow,74.05
+T-GNN,5,grande,pilar_largo,475,right_wrist,17.15
+T-GNN,10,grande,pilar_largo,475,right_wrist,29.43
+T-GNN,20,grande,pilar_largo,475,right_wrist,20.45
+T-GNN,5,grande,pilar_largo,475,left_hip,63.07
+T-GNN,10,grande,pilar_largo,475,left_hip,126.44
+T-GNN,20,grande,pilar_largo,475,left_hip,258.02
+T-GNN,5,grande,pilar_largo,475,right_hip,82.07
+T-GNN,10,grande,pilar_largo,475,right_hip,143.29
+T-GNN,20,grande,pilar_largo,475,right_hip,277.13
+T-GNN,5,grande,pilar_largo,475,right_knee,125.55
+T-GNN,10,grande,pilar_largo,475,right_knee,248.85
+T-GNN,20,grande,pilar_largo,475,right_knee,420.94
+T-GNN,5,grande,pilar_largo,479,right_ear,45.17
+T-GNN,10,grande,pilar_largo,479,right_ear,80.75
+T-GNN,20,grande,pilar_largo,479,right_ear,103.62
+T-GNN,5,grande,pilar_largo,481,nose,13.17
+T-GNN,10,grande,pilar_largo,481,nose,29.97
+T-GNN,20,grande,pilar_largo,481,nose,78.04
+T-GNN,5,grande,pilar_largo,481,right_eye,24.0
+T-GNN,10,grande,pilar_largo,481,right_eye,42.8
+T-GNN,20,grande,pilar_largo,481,right_eye,52.31
+T-GNN,10,natural,natural,536,left_ankle,95.82
+T-GNN,20,natural,natural,536,left_ankle,173.16
+T-GNN,10,natural,natural,537,left_wrist,102.58
+T-GNN,20,natural,natural,537,left_wrist,139.2
+T-GNN,5,grande,muro_alto,542,left_elbow,49.47
+T-GNN,10,grande,muro_alto,542,left_elbow,99.27
+T-GNN,20,grande,muro_alto,542,left_elbow,118.06
+T-GNN,5,grande,muro_alto,542,right_elbow,28.59
+T-GNN,10,grande,muro_alto,542,right_elbow,79.84
+T-GNN,20,grande,muro_alto,542,right_elbow,114.99
+T-GNN,5,grande,muro_alto,542,right_wrist,26.08
+T-GNN,10,grande,muro_alto,542,right_wrist,79.22
+T-GNN,20,grande,muro_alto,542,right_wrist,61.17
+T-GNN,5,grande,muro_alto,542,left_hip,22.02
+T-GNN,10,grande,muro_alto,542,left_hip,42.21
+T-GNN,20,grande,muro_alto,542,left_hip,71.95
+T-GNN,5,grande,muro_alto,542,right_hip,38.31
+T-GNN,10,grande,muro_alto,542,right_hip,77.89
+T-GNN,20,grande,muro_alto,542,right_hip,140.44
+T-GNN,5,grande,muro_alto,542,left_knee,12.73
+T-GNN,10,grande,muro_alto,542,left_knee,26.7
+T-GNN,20,grande,muro_alto,542,left_knee,62.01
+T-GNN,5,grande,muro_alto,542,right_knee,72.72
+T-GNN,10,grande,muro_alto,542,right_knee,137.77
+T-GNN,20,grande,muro_alto,542,right_knee,208.93
+T-GNN,5,grande,muro_alto,542,right_ankle,90.21
+T-GNN,10,grande,muro_alto,542,right_ankle,175.08
+T-GNN,20,grande,muro_alto,542,right_ankle,308.35
+T-GNN,5,grande,muro_alto,551,left_eye,20.3
+T-GNN,10,grande,muro_alto,551,left_eye,40.08
+T-GNN,5,grande,muro_alto,563,left_eye,24.62
+T-GNN,5,natural,natural,622,left_eye,21.76
+T-GNN,5,grande,pilar_largo,623,nose,29.86
+T-GNN,10,grande,pilar_largo,623,nose,76.07
+T-GNN,5,grande,pilar_largo,623,right_eye,18.89
+T-GNN,10,grande,pilar_largo,623,right_eye,53.36
+T-GNN,5,grande,pilar_largo,623,left_elbow,16.91
+T-GNN,5,grande,pilar_largo,623,left_wrist,29.35
+T-GNN,5,grande,pilar_largo,623,right_wrist,61.03
+T-GNN,10,grande,pilar_largo,623,right_wrist,124.02
+T-GNN,5,grande,pilar_largo,623,left_knee,35.89
+T-GNN,5,grande,pilar_largo,623,right_knee,78.35
+T-GNN,10,grande,pilar_largo,623,right_knee,150.9
+T-GNN,20,grande,pilar_largo,623,right_knee,232.67
+T-GNN,5,grande,pilar_largo,628,right_ear,53.91
+T-GNN,10,grande,pilar_largo,628,right_ear,111.37
+T-GNN,5,grande,pilar_largo,628,left_hip,80.29
+T-GNN,10,grande,pilar_largo,628,left_hip,106.01
+T-GNN,5,grande,pilar_largo,630,left_shoulder,104.6
+T-GNN,10,grande,pilar_largo,630,left_shoulder,165.49
+T-GNN,5,grande,pilar_largo,633,right_shoulder,68.81
+T-GNN,10,grande,pilar_largo,633,right_shoulder,142.77
+T-GNN,5,grande,pilar_largo,633,right_hip,87.73
+T-GNN,10,grande,pilar_largo,633,right_hip,136.92
+T-GNN,5,grande,pilar_largo,642,right_elbow,49.11
+T-GNN,10,grande,pilar_largo,642,right_elbow,94.5
+T-GNN,5,grande,pilar_largo,642,right_wrist,58.22
+T-GNN,10,grande,pilar_largo,642,right_wrist,57.89
+T-GNN,5,parcial,muro_baixo_pernas,680,left_knee,34.51
+T-GNN,10,parcial,muro_baixo_pernas,680,left_knee,59.29
+T-GNN,20,parcial,muro_baixo_pernas,680,left_knee,146.34
+T-GNN,5,parcial,muro_baixo_pernas,680,right_knee,82.81
+T-GNN,10,parcial,muro_baixo_pernas,680,right_knee,166.55
+T-GNN,20,parcial,muro_baixo_pernas,680,right_knee,266.78

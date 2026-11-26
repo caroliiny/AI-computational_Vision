@@ -1,0 +1,19 @@
+categoria,metodo,horizonte,erro_medio_px,rmse_px,mediana_px,n
+quase_total,EKF,5,33.17,38.3,34.12,15
+quase_total,EKF,10,43.18,52.51,39.38,12
+quase_total,EKF,20,69.06,70.34,65.89,4
+quase_total,GRU,5,40.5,47.59,50.13,15
+quase_total,GRU,10,46.89,54.75,52.26,12
+quase_total,GRU,20,78.92,80.5,79.97,4
+quase_total,LSTM,5,44.1,46.65,43.57,15
+quase_total,LSTM,10,53.7,54.81,50.02,12
+quase_total,LSTM,20,58.43,59.63,60.66,4
+quase_total,T-GNN,5,42.68,45.56,41.15,15
+quase_total,T-GNN,10,49.15,51.01,48.08,12
+quase_total,T-GNN,20,62.85,63.57,61.39,4
+quase_total,Transformer,5,36.44,40.85,32.64,15
+quase_total,Transformer,10,37.07,41.97,41.41,12
+quase_total,Transformer,20,40.61,41.42,40.28,4
+quase_total,Último valor,5,46.08,48.12,42.84,15
+quase_total,Último valor,10,56.89,57.54,54.69,12
+quase_total,Último valor,20,60.9,61.11,61.34,4

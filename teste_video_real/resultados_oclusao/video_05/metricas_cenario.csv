@@ -1,0 +1,37 @@
+cenario,metodo,horizonte,erro_medio_px,rmse_px,mediana_px,n
+muro_alto,EKF,5,90.75,97.97,105.6,5
+muro_alto,EKF,10,98.91,125.79,78.73,6
+muro_alto,EKF,20,176.08,201.04,161.78,4
+muro_alto,GRU,5,26.41,28.6,26.03,5
+muro_alto,GRU,10,67.74,87.42,33.06,6
+muro_alto,GRU,20,82.2,102.87,79.72,4
+muro_alto,LSTM,5,32.33,39.66,24.07,5
+muro_alto,LSTM,10,72.72,87.72,49.22,6
+muro_alto,LSTM,20,69.21,73.05,57.6,4
+muro_alto,T-GNN,5,26.66,30.79,25.24,5
+muro_alto,T-GNN,10,57.02,69.74,36.69,6
+muro_alto,T-GNN,20,108.07,116.65,111.92,4
+muro_alto,Transformer,5,29.46,31.99,23.46,5
+muro_alto,Transformer,10,43.13,57.9,24.25,6
+muro_alto,Transformer,20,66.2,75.33,83.1,4
+muro_alto,Último valor,5,64.36,71.1,81.35,5
+muro_alto,Último valor,10,93.87,110.13,86.23,6
+muro_alto,Último valor,20,176.26,191.11,153.75,4
+natural,EKF,10,85.33,88.3,85.33,2
+natural,GRU,10,103.53,103.53,103.53,2
+natural,LSTM,10,218.6,221.12,218.6,2
+natural,T-GNN,10,350.27,380.16,350.27,2
+natural,Transformer,10,287.72,288.58,287.72,2
+natural,Último valor,10,64.35,65.28,64.35,2
+pilar_largo,EKF,5,96.16,116.8,80.09,11
+pilar_largo,EKF,10,115.03,143.99,99.16,6
+pilar_largo,GRU,5,349.14,396.21,384.56,11
+pilar_largo,GRU,10,365.22,404.27,334.86,6
+pilar_largo,LSTM,5,389.92,406.9,376.83,11
+pilar_largo,LSTM,10,507.54,525.39,548.81,6
+pilar_largo,T-GNN,5,606.73,635.03,618.98,11
+pilar_largo,T-GNN,10,639.96,679.52,682.12,6
+pilar_largo,Transformer,5,363.02,383.35,313.14,11
+pilar_largo,Transformer,10,486.4,504.09,470.47,6
+pilar_largo,Último valor,5,71.8,79.73,54.2,11
+pilar_largo,Último valor,10,120.09,135.16,127.12,6

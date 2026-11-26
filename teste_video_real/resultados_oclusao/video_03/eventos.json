@@ -1,0 +1,173 @@
+{
+ "origens": [
+  211,
+  221,
+  254,
+  263,
+  264,
+  290
+ ],
+ "eventos": [
+  {
+   "t0": 211,
+   "junta": 4,
+   "duracao": 52,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 221,
+   "junta": 0,
+   "duracao": 82,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 1,
+   "duracao": 107,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 2,
+   "duracao": 107,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 3,
+   "duracao": 56,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 5,
+   "duracao": 41,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 6,
+   "duracao": 42,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 7,
+   "duracao": 32,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 8,
+   "duracao": 40,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 9,
+   "duracao": 32,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 10,
+   "duracao": 40,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 11,
+   "duracao": 39,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 12,
+   "duracao": 40,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 13,
+   "duracao": 55,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 14,
+   "duracao": 46,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 15,
+   "duracao": 69,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 221,
+   "junta": 16,
+   "duracao": 71,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 254,
+   "junta": 7,
+   "duracao": 5,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 263,
+   "junta": 5,
+   "duracao": 7,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 263,
+   "junta": 7,
+   "duracao": 11,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 263,
+   "junta": 9,
+   "duracao": 15,
+   "cenario": "bloco_total",
+   "categoria": "total"
+  },
+  {
+   "t0": 264,
+   "junta": 11,
+   "duracao": 5,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 290,
+   "junta": 10,
+   "duracao": 10,
+   "cenario": "natural",
+   "categoria": "natural"
+  }
+ ]
+}

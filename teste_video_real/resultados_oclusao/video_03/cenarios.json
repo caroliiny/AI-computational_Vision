@@ -1,0 +1,103 @@
+{
+  "fps": 23.976023976023978,
+  "largura": 1280,
+  "altura": 720,
+  "n_quadros": 329,
+  "semente": 0,
+  "cenarios": [
+    {
+      "id": 0,
+      "tipo": "muro_baixo_pernas",
+      "categoria": "parcial",
+      "ini": 25,
+      "fim": 69,
+      "retangulo": [
+        649,
+        397,
+        775,
+        720
+      ],
+      "fracao_cobertura": 0.235,
+      "juntas_cobertas": [
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 1,
+      "tipo": "pilar_estreito",
+      "categoria": "parcial",
+      "ini": 95,
+      "fim": 124,
+      "retangulo": [
+        698,
+        0,
+        730,
+        720
+      ],
+      "fracao_cobertura": 0.21,
+      "juntas_cobertas": [
+        "left_eye",
+        "left_ear",
+        "right_knee",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "bloco_quase_total",
+      "categoria": "quase_total",
+      "ini": 150,
+      "fim": 196,
+      "retangulo": [
+        571,
+        155,
+        833,
+        720
+      ],
+      "fracao_cobertura": 0.696,
+      "juntas_cobertas": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 3,
+      "tipo": "bloco_total",
+      "categoria": "total",
+      "ini": 222,
+      "fim": 264,
+      "retangulo": [
+        467,
+        0,
+        1236,
+        720
+      ],
+      "fracao_cobertura": 1.0,
+      "juntas_cobertas": [
+        "nose",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ]
+    }
+  ]
+}

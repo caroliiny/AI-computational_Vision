@@ -1,0 +1,31 @@
+categoria,metodo,horizonte,erro_medio_px,rmse_px,mediana_px,n
+natural,EKF,5,541.59,634.93,359.77,3
+natural,EKF,10,310.53,313.57,310.53,2
+natural,GRU,5,538.3,635.88,331.73,3
+natural,GRU,10,295.88,296.84,295.88,2
+natural,LSTM,5,541.92,640.01,335.6,3
+natural,LSTM,10,300.87,302.02,300.87,2
+natural,T-GNN,5,540.79,639.33,334.01,3
+natural,T-GNN,10,298.43,299.53,298.43,2
+natural,Transformer,5,541.41,641.09,333.26,3
+natural,Transformer,10,296.02,297.22,296.02,2
+natural,Último valor,5,542.53,639.85,337.4,3
+natural,Último valor,10,303.83,305.03,303.83,2
+total,EKF,5,517.73,631.0,335.58,12
+total,EKF,10,355.98,414.74,290.7,10
+total,EKF,20,300.02,325.78,313.84,8
+total,GRU,5,521.53,638.57,329.76,12
+total,GRU,10,342.45,395.73,277.77,10
+total,GRU,20,290.33,313.66,308.71,8
+total,LSTM,5,525.8,641.99,335.54,12
+total,LSTM,10,351.19,404.81,292.77,10
+total,LSTM,20,305.06,329.96,331.45,8
+total,T-GNN,5,524.75,640.68,334.35,12
+total,T-GNN,10,348.93,401.18,289.75,10
+total,T-GNN,20,303.43,327.1,324.25,8
+total,Transformer,5,525.41,640.91,337.14,12
+total,Transformer,10,350.88,403.51,294.05,10
+total,Transformer,20,306.74,330.9,325.77,8
+total,Último valor,5,526.42,642.05,336.78,12
+total,Último valor,10,352.89,405.9,296.46,10
+total,Último valor,20,308.91,333.27,333.89,8

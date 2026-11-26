@@ -1,0 +1,13 @@
+{
+  "epocas": 100,
+  "frac_treino": 0.6,
+  "semente": 0,
+  "corte": 340,
+  "n_janelas": 299,
+  "modelos": [
+    "LSTM",
+    "GRU",
+    "Transformer",
+    "T-GNN"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "fps": 30.001499193081372,
+  "largura": 1024,
+  "altura": 576,
+  "n_quadros": 567,
+  "semente": 0,
+  "cenarios": [
+    {
+      "id": 0,
+      "tipo": "muro_baixo_pernas",
+      "categoria": "parcial",
+      "ini": 50,
+      "fim": 79,
+      "retangulo": [
+        47,
+        343,
+        224,
+        576
+      ],
+      "fracao_cobertura": 0.096,
+      "juntas_cobertas": [
+        "right_knee"
+      ]
+    },
+    {
+      "id": 1,
+      "tipo": "pilar_estreito",
+      "categoria": "parcial",
+      "ini": 105,
+      "fim": 154,
+      "retangulo": [
+        919,
+        0,
+        960,
+        576
+      ],
+      "fracao_cobertura": 0.2,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "bloco_quase_total",
+      "categoria": "quase_total",
+      "ini": 180,
+      "fim": 237,
+      "retangulo": [
+        0,
+        83,
+        853,
+        576
+      ],
+      "fracao_cobertura": 0.733,
+      "juntas_cobertas": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle"
+      ]
+    },
+    {
+      "id": 3,
+      "tipo": "bloco_total",
+      "categoria": "total",
+      "ini": 313,
+      "fim": 350,
+      "retangulo": [
+        0,
+        0,
+        452,
+        576
+      ],
+      "fracao_cobertura": 1.0,
+      "juntas_cobertas": [
+        "nose",
+        "right_eye",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee"
+      ]
+    },
+    {
+      "id": 4,
+      "tipo": "pilar_largo",
+      "categoria": "grande",
+      "ini": 376,
+      "fim": 430,
+      "retangulo": [
+        806,
+        0,
+        885,
+        576
+      ],
+      "fracao_cobertura": 0.174,
+      "juntas_cobertas": []
+    },
+    {
+      "id": 5,
+      "tipo": "muro_alto",
+      "categoria": "grande",
+      "ini": 456,
+      "fim": 502,
+      "retangulo": [
+        634,
+        220,
+        970,
+        576
+      ],
+      "fracao_cobertura": 0.411,
+      "juntas_cobertas": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee"
+      ]
+    }
+  ]
+}

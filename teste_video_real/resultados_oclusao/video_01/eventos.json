@@ -1,0 +1,128 @@
+{
+ "origens": [
+  161,
+  196,
+  202
+ ],
+ "eventos": [
+  {
+   "t0": 161,
+   "junta": 6,
+   "duracao": 7,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 161,
+   "junta": 11,
+   "duracao": 40,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 161,
+   "junta": 12,
+   "duracao": 40,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 161,
+   "junta": 13,
+   "duracao": 57,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 161,
+   "junta": 14,
+   "duracao": 40,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 196,
+   "junta": 5,
+   "duracao": 5,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 196,
+   "junta": 6,
+   "duracao": 5,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 0,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 1,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 3,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 5,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 6,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 8,
+   "duracao": 25,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 10,
+   "duracao": 25,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 11,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 12,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  },
+  {
+   "t0": 202,
+   "junta": 14,
+   "duracao": 16,
+   "cenario": "bloco_quase_total",
+   "categoria": "quase_total"
+  }
+ ]
+}

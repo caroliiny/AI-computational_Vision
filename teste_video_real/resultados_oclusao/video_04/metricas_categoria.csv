@@ -1,0 +1,55 @@
+categoria,metodo,horizonte,erro_medio_px,rmse_px,mediana_px,n
+grande,EKF,5,30.74,39.04,20.51,34
+grande,EKF,10,57.07,70.43,43.82,30
+grande,EKF,20,88.71,110.53,83.49,19
+grande,GRU,5,38.25,44.1,34.66,34
+grande,GRU,10,67.1,76.96,63.39,30
+grande,GRU,20,107.38,136.92,70.79,19
+grande,LSTM,5,43.45,51.08,35.4,34
+grande,LSTM,10,81.8,96.85,70.07,30
+grande,LSTM,20,148.99,196.09,109.12,19
+grande,T-GNN,5,47.52,55.59,41.14,34
+grande,T-GNN,10,95.29,108.53,87.62,30
+grande,T-GNN,20,150.94,183.23,114.99,19
+grande,Transformer,5,37.49,46.0,30.27,34
+grande,Transformer,10,73.46,90.1,69.32,30
+grande,Transformer,20,116.39,165.67,79.74,19
+grande,Último valor,5,29.3,35.75,27.27,34
+grande,Último valor,10,57.35,68.78,49.95,30
+grande,Último valor,20,78.28,99.41,67.52,19
+natural,EKF,5,9.24,9.24,9.24,1
+natural,EKF,10,74.39,87.06,46.05,3
+natural,EKF,20,91.33,94.66,89.02,4
+natural,GRU,5,38.0,38.0,38.0,1
+natural,GRU,10,104.77,109.23,117.6,3
+natural,GRU,20,225.99,237.85,248.14,4
+natural,LSTM,5,29.79,29.79,29.79,1
+natural,LSTM,10,67.98,70.77,56.33,3
+natural,LSTM,20,137.02,143.94,150.13,4
+natural,T-GNN,5,21.76,21.76,21.76,1
+natural,T-GNN,10,119.76,123.27,102.58,3
+natural,T-GNN,20,231.13,245.62,215.68,4
+natural,Transformer,5,15.33,15.33,15.33,1
+natural,Transformer,10,116.3,129.38,103.57,3
+natural,Transformer,20,242.71,268.69,241.31,4
+natural,Último valor,5,8.91,8.91,8.91,1
+natural,Último valor,10,29.85,36.0,39.98,3
+natural,Último valor,20,77.75,89.02,88.73,4
+parcial,EKF,5,15.86,15.92,15.86,2
+parcial,EKF,10,21.9,23.27,21.9,2
+parcial,EKF,20,34.32,38.68,34.32,2
+parcial,GRU,5,16.37,20.12,16.37,2
+parcial,GRU,10,30.49,34.27,30.49,2
+parcial,GRU,20,61.75,66.28,61.75,2
+parcial,LSTM,5,27.43,27.76,27.43,2
+parcial,LSTM,10,47.77,47.78,47.77,2
+parcial,LSTM,20,92.18,92.19,92.18,2
+parcial,T-GNN,5,58.66,63.44,58.66,2
+parcial,T-GNN,10,112.92,125.01,112.92,2
+parcial,T-GNN,20,206.56,215.16,206.56,2
+parcial,Transformer,5,15.76,15.76,15.76,2
+parcial,Transformer,10,25.85,25.87,25.85,2
+parcial,Transformer,20,47.21,47.4,47.21,2
+parcial,Último valor,5,10.79,11.66,10.79,2
+parcial,Último valor,10,12.56,13.02,12.56,2
+parcial,Último valor,20,23.47,23.88,23.47,2

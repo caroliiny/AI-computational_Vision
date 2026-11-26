@@ -1,0 +1,169 @@
+{
+  "protocolos": {
+    "reconstrucao": "COCO-17; reconstrução offline do mesmo quadro; métricas somente em articulações ocultas",
+    "previsao_futura": "COCO-17; histórico causal de 10 quadros; métricas sobre coordenadas dos horizontes futuros configurados; histórico com ruído e máscaras de oclusão; condições e durações cruzadas; quadros futuros usados somente como referência"
+  },
+  "metodos": [
+    "EKF",
+    "LSTM",
+    "GRU",
+    "Transformer",
+    "T-GNN"
+  ],
+  "split_ids": {
+    "treino": [
+      1,
+      5,
+      6,
+      11,
+      9,
+      4,
+      0,
+      8
+    ],
+    "validacao": [
+      3
+    ],
+    "teste": [
+      7,
+      10,
+      2
+    ]
+  },
+  "sementes_execucao": [
+    11
+  ],
+  "configuracao": {
+    "dados": {
+      "sementes_dados": 20261113,
+      "quantidade_sequencias": 12,
+      "quadros_por_sequencia": 40,
+      "tamanho_imagem": 256,
+      "articulacoes_ocluiveis": [
+        9,
+        10,
+        15,
+        16
+      ],
+      "segmentos_ocluiveis": [
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          11,
+          13,
+          15
+        ],
+        [
+          12,
+          14,
+          16
+        ]
+      ],
+      "probabilidade_oclusao_segmento": 0.5,
+      "percentual_articulacoes_ocultas": 1.0,
+      "duracoes_oclusao_teste": [
+        5
+      ],
+      "condicoes_oclusao_teste": [
+        {
+          "nome": "articulacoes_distais",
+          "articulacoes": [
+            9,
+            10,
+            15,
+            16
+          ]
+        },
+        {
+          "nome": "membro_completo",
+          "segmentos": [
+            [
+              5,
+              7,
+              9
+            ],
+            [
+              6,
+              8,
+              10
+            ],
+            [
+              11,
+              13,
+              15
+            ],
+            [
+              12,
+              14,
+              16
+            ]
+          ]
+        }
+      ],
+      "duracao_oclusao_treino": 5,
+      "ruido_observacao_px": 1.5
+    },
+    "treinamento": {
+      "tamanho_janela": 10,
+      "horizontes_previsao": [
+        5,
+        10,
+        20
+      ],
+      "proporcoes_split": [
+        0.7,
+        0.15,
+        0.15
+      ],
+      "sementes_execucao": [
+        11
+      ],
+      "epocas": 2,
+      "paciencia": 2,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "peso_pontos_ocultos": 2.0,
+      "dimensao_oculta": 64,
+      "dispositivo": "auto"
+    },
+    "resultados": {
+      "diretorio": "resultados/comparacao_cinco_metodos"
+    }
+  },
+  "dispositivo": "cpu",
+  "python": "3.12.10",
+  "pytorch": "2.15.0+cpu",
+  "pacotes": {
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "opencv": "5.0.0",
+    "pyyaml": "6.0.3"
+  },
+  "sha256_configuracao": "0686c0212443bb07fe7aedfd6d2927535240f646f7c833aca092755a44ad9a65",
+  "codigo": {
+    "commit": "2c5d42b7dd0dea7c7da3859f1142a611964d1035",
+    "arvore_suja": "true",
+    "sha256_fontes_src": "ff82aec665915976e8a68c7811f19b63c800ac08e185c7273e47a60b80b85396"
+  },
+  "parametros_ekf_por_seed": {
+    "11": {
+      "q_v": 1.7579373121261597,
+      "q_w": 1.0,
+      "tau": 1.5,
+      "q_pos": 0.05,
+      "q_th": 0.005
+    }
+  },
+  "status_seeds": {
+    "11": "concluida"
+  },
+  "estado_execucao": "concluida"
+}

@@ -1,0 +1,32 @@
+| Método | Condição | MAE (px) | RMSE (px) | Erro euclidiano (px) |
+| --- | --- | --- | --- | --- |
+| EKF | 10_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 3.823 ± 0.000 | 5.477 ± 0.000 | 6.173 ± 0.000 |
+| EKF | 10_quadros_futuros_oclusao_membro_completo_5_quadros | 4.092 ± 0.000 | 5.870 ± 0.000 | 6.567 ± 0.000 |
+| EKF | 20_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 6.776 ± 0.000 | 10.324 ± 0.000 | 10.987 ± 0.000 |
+| EKF | 20_quadros_futuros_oclusao_membro_completo_5_quadros | 7.382 ± 0.000 | 11.208 ± 0.000 | 11.914 ± 0.000 |
+| EKF | 5_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 2.849 ± 0.000 | 3.949 ± 0.000 | 4.573 ± 0.000 |
+| EKF | 5_quadros_futuros_oclusao_membro_completo_5_quadros | 2.966 ± 0.000 | 4.102 ± 0.000 | 4.712 ± 0.000 |
+| LSTM | 10_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 28.128 ± 0.000 | 31.864 ± 0.000 | 42.991 ± 0.000 |
+| LSTM | 10_quadros_futuros_oclusao_membro_completo_5_quadros | 29.959 ± 0.000 | 33.707 ± 0.000 | 45.665 ± 0.000 |
+| LSTM | 20_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 34.764 ± 0.000 | 47.773 ± 0.000 | 55.989 ± 0.000 |
+| LSTM | 20_quadros_futuros_oclusao_membro_completo_5_quadros | 34.723 ± 0.000 | 47.500 ± 0.000 | 55.859 ± 0.000 |
+| LSTM | 5_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 20.177 ± 0.000 | 24.418 ± 0.000 | 31.403 ± 0.000 |
+| LSTM | 5_quadros_futuros_oclusao_membro_completo_5_quadros | 20.180 ± 0.000 | 24.508 ± 0.000 | 31.398 ± 0.000 |
+| GRU | 10_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 17.924 ± 0.000 | 22.004 ± 0.000 | 27.875 ± 0.000 |
+| GRU | 10_quadros_futuros_oclusao_membro_completo_5_quadros | 19.100 ± 0.000 | 23.246 ± 0.000 | 29.762 ± 0.000 |
+| GRU | 20_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 32.988 ± 0.000 | 46.508 ± 0.000 | 52.947 ± 0.000 |
+| GRU | 20_quadros_futuros_oclusao_membro_completo_5_quadros | 32.849 ± 0.000 | 45.789 ± 0.000 | 52.578 ± 0.000 |
+| GRU | 5_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 23.119 ± 0.000 | 29.010 ± 0.000 | 36.193 ± 0.000 |
+| GRU | 5_quadros_futuros_oclusao_membro_completo_5_quadros | 21.628 ± 0.000 | 26.868 ± 0.000 | 33.780 ± 0.000 |
+| Transformer | 10_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 33.824 ± 0.000 | 41.373 ± 0.000 | 52.042 ± 0.000 |
+| Transformer | 10_quadros_futuros_oclusao_membro_completo_5_quadros | 33.583 ± 0.000 | 41.212 ± 0.000 | 51.837 ± 0.000 |
+| Transformer | 20_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 52.660 ± 0.000 | 80.210 ± 0.000 | 87.067 ± 0.000 |
+| Transformer | 20_quadros_futuros_oclusao_membro_completo_5_quadros | 52.931 ± 0.000 | 80.502 ± 0.000 | 87.556 ± 0.000 |
+| Transformer | 5_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 32.165 ± 0.000 | 40.043 ± 0.000 | 50.255 ± 0.000 |
+| Transformer | 5_quadros_futuros_oclusao_membro_completo_5_quadros | 32.601 ± 0.000 | 40.556 ± 0.000 | 50.870 ± 0.000 |
+| T-GNN | 10_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 22.545 ± 0.000 | 26.815 ± 0.000 | 34.968 ± 0.000 |
+| T-GNN | 10_quadros_futuros_oclusao_membro_completo_5_quadros | 24.947 ± 0.000 | 29.341 ± 0.000 | 38.654 ± 0.000 |
+| T-GNN | 20_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 32.047 ± 0.000 | 41.166 ± 0.000 | 50.730 ± 0.000 |
+| T-GNN | 20_quadros_futuros_oclusao_membro_completo_5_quadros | 33.018 ± 0.000 | 41.687 ± 0.000 | 51.924 ± 0.000 |
+| T-GNN | 5_quadros_futuros_oclusao_articulacoes_distais_5_quadros | 19.224 ± 0.000 | 24.774 ± 0.000 | 30.708 ± 0.000 |
+| T-GNN | 5_quadros_futuros_oclusao_membro_completo_5_quadros | 19.171 ± 0.000 | 24.655 ± 0.000 | 30.641 ± 0.000 |

@@ -1,0 +1,138 @@
+{
+ "origens": [
+  322,
+  327,
+  346,
+  351,
+  352,
+  355
+ ],
+ "eventos": [
+  {
+   "t0": 322,
+   "junta": 0,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 1,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 2,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 3,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 4,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 5,
+   "duracao": 6,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 6,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 8,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 10,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 12,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 14,
+   "duracao": 47,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 322,
+   "junta": 16,
+   "duracao": 32,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 327,
+   "junta": 15,
+   "duracao": 5,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 346,
+   "junta": 9,
+   "duracao": 21,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 351,
+   "junta": 5,
+   "duracao": 14,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 351,
+   "junta": 7,
+   "duracao": 15,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 352,
+   "junta": 11,
+   "duracao": 13,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 355,
+   "junta": 16,
+   "duracao": 14,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  }
+ ]
+}

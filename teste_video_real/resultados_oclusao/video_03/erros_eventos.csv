@@ -1,0 +1,211 @@
+metodo,horizonte,categoria,cenario,t0,junta,erro_px
+Último valor,5,natural,natural,211,right_ear,337.4
+Último valor,10,natural,natural,211,right_ear,330.86
+Último valor,5,total,bloco_total,221,left_shoulder,131.39
+Último valor,10,total,bloco_total,221,left_shoulder,137.67
+Último valor,20,total,bloco_total,221,left_shoulder,156.48
+Último valor,5,total,bloco_total,221,right_shoulder,308.36
+Último valor,10,total,bloco_total,221,right_shoulder,297.23
+Último valor,20,total,bloco_total,221,right_shoulder,344.73
+Último valor,5,total,bloco_total,221,left_elbow,91.11
+Último valor,10,total,bloco_total,221,left_elbow,63.73
+Último valor,20,total,bloco_total,221,left_elbow,79.55
+Último valor,5,total,bloco_total,221,right_elbow,316.77
+Último valor,10,total,bloco_total,221,right_elbow,295.7
+Último valor,20,total,bloco_total,221,right_elbow,346.28
+Último valor,5,total,bloco_total,221,left_wrist,272.02
+Último valor,10,total,bloco_total,221,left_wrist,264.42
+Último valor,20,total,bloco_total,221,left_wrist,310.8
+Último valor,5,total,bloco_total,221,right_wrist,445.42
+Último valor,10,total,bloco_total,221,right_wrist,424.01
+Último valor,20,total,bloco_total,221,right_wrist,497.83
+Último valor,5,total,bloco_total,221,left_hip,273.87
+Último valor,10,total,bloco_total,221,left_hip,281.41
+Último valor,20,total,bloco_total,221,left_hip,323.04
+Último valor,5,total,bloco_total,221,right_hip,356.79
+Último valor,10,total,bloco_total,221,right_hip,354.93
+Último valor,20,total,bloco_total,221,right_hip,412.59
+Último valor,5,total,bloco_total,254,left_elbow,1024.06
+Último valor,5,total,bloco_total,263,left_shoulder,992.14
+Último valor,5,total,bloco_total,263,left_elbow,1019.17
+Último valor,10,total,bloco_total,263,left_elbow,696.22
+Último valor,5,total,bloco_total,263,left_wrist,1085.92
+Último valor,10,total,bloco_total,263,left_wrist,713.56
+Último valor,5,natural,natural,264,left_hip,1020.64
+Último valor,5,natural,natural,290,right_wrist,269.55
+Último valor,10,natural,natural,290,right_wrist,276.79
+EKF,5,natural,natural,211,right_ear,359.77
+EKF,10,natural,natural,211,right_ear,354.07
+EKF,5,total,bloco_total,221,left_shoulder,129.48
+EKF,10,total,bloco_total,221,left_shoulder,135.84
+EKF,20,total,bloco_total,221,left_shoulder,154.66
+EKF,5,total,bloco_total,221,right_shoulder,289.59
+EKF,10,total,bloco_total,221,right_shoulder,293.75
+EKF,20,total,bloco_total,221,right_shoulder,321.02
+EKF,5,total,bloco_total,221,left_elbow,92.46
+EKF,10,total,bloco_total,221,left_elbow,61.46
+EKF,20,total,bloco_total,221,left_elbow,70.9
+EKF,5,total,bloco_total,221,right_elbow,311.81
+EKF,10,total,bloco_total,221,right_elbow,287.66
+EKF,20,total,bloco_total,221,right_elbow,335.64
+EKF,5,total,bloco_total,221,left_wrist,266.64
+EKF,10,total,bloco_total,221,left_wrist,253.76
+EKF,20,total,bloco_total,221,left_wrist,293.3
+EKF,5,total,bloco_total,221,right_wrist,446.11
+EKF,10,total,bloco_total,221,right_wrist,422.28
+EKF,20,total,bloco_total,221,right_wrist,497.95
+EKF,5,total,bloco_total,221,left_hip,272.19
+EKF,10,total,bloco_total,221,left_hip,275.83
+EKF,20,total,bloco_total,221,left_hip,306.66
+EKF,5,total,bloco_total,221,right_hip,359.34
+EKF,10,total,bloco_total,221,right_hip,359.02
+EKF,20,total,bloco_total,221,right_hip,420.0
+EKF,5,total,bloco_total,254,left_elbow,1025.66
+EKF,5,total,bloco_total,263,left_shoulder,954.99
+EKF,5,total,bloco_total,263,left_elbow,1072.75
+EKF,10,total,bloco_total,263,left_elbow,748.83
+EKF,5,total,bloco_total,263,left_wrist,991.7
+EKF,10,total,bloco_total,263,left_wrist,721.4
+EKF,5,natural,natural,264,left_hip,1006.57
+EKF,5,natural,natural,290,right_wrist,258.43
+EKF,10,natural,natural,290,right_wrist,266.99
+LSTM,5,natural,natural,211,right_ear,335.6
+LSTM,10,natural,natural,211,right_ear,327.2
+LSTM,5,total,bloco_total,221,left_shoulder,128.55
+LSTM,10,total,bloco_total,221,left_shoulder,132.21
+LSTM,20,total,bloco_total,221,left_shoulder,145.68
+LSTM,5,total,bloco_total,221,right_shoulder,306.34
+LSTM,10,total,bloco_total,221,right_shoulder,293.03
+LSTM,20,total,bloco_total,221,right_shoulder,336.74
+LSTM,5,total,bloco_total,221,left_elbow,90.16
+LSTM,10,total,bloco_total,221,left_elbow,63.0
+LSTM,20,total,bloco_total,221,left_elbow,78.08
+LSTM,5,total,bloco_total,221,right_elbow,315.21
+LSTM,10,total,bloco_total,221,right_elbow,292.51
+LSTM,20,total,bloco_total,221,right_elbow,340.41
+LSTM,5,total,bloco_total,221,left_wrist,271.41
+LSTM,10,total,bloco_total,221,left_wrist,263.72
+LSTM,20,total,bloco_total,221,left_wrist,309.25
+LSTM,5,total,bloco_total,221,right_wrist,444.64
+LSTM,10,total,bloco_total,221,right_wrist,422.42
+LSTM,20,total,bloco_total,221,right_wrist,494.87
+LSTM,5,total,bloco_total,221,left_hip,274.28
+LSTM,10,total,bloco_total,221,left_hip,282.55
+LSTM,20,total,bloco_total,221,left_hip,326.15
+LSTM,5,total,bloco_total,221,right_hip,355.87
+LSTM,10,total,bloco_total,221,right_hip,353.16
+LSTM,20,total,bloco_total,221,right_hip,409.27
+LSTM,5,total,bloco_total,254,left_elbow,1025.62
+LSTM,5,total,bloco_total,263,left_shoulder,991.93
+LSTM,5,total,bloco_total,263,left_elbow,1019.21
+LSTM,10,total,bloco_total,263,left_elbow,695.69
+LSTM,5,total,bloco_total,263,left_wrist,1086.34
+LSTM,10,total,bloco_total,263,left_wrist,713.65
+LSTM,5,natural,natural,264,left_hip,1021.89
+LSTM,5,natural,natural,290,right_wrist,268.26
+LSTM,10,natural,natural,290,right_wrist,274.55
+GRU,5,natural,natural,211,right_ear,331.73
+GRU,10,natural,natural,211,right_ear,319.74
+GRU,5,total,bloco_total,221,left_shoulder,126.24
+GRU,10,total,bloco_total,221,left_shoulder,131.34
+GRU,20,total,bloco_total,221,left_shoulder,144.74
+GRU,5,total,bloco_total,221,right_shoulder,299.15
+GRU,10,total,bloco_total,221,right_shoulder,278.81
+GRU,20,total,bloco_total,221,right_shoulder,309.01
+GRU,5,total,bloco_total,221,left_elbow,88.21
+GRU,10,total,bloco_total,221,left_elbow,61.72
+GRU,20,total,bloco_total,221,left_elbow,76.24
+GRU,5,total,bloco_total,221,right_elbow,306.89
+GRU,10,total,bloco_total,221,right_elbow,276.01
+GRU,20,total,bloco_total,221,right_elbow,308.4
+GRU,5,total,bloco_total,221,left_wrist,267.67
+GRU,10,total,bloco_total,221,left_wrist,258.38
+GRU,20,total,bloco_total,221,left_wrist,299.14
+GRU,5,total,bloco_total,221,right_wrist,438.13
+GRU,10,total,bloco_total,221,right_wrist,409.52
+GRU,20,total,bloco_total,221,right_wrist,471.32
+GRU,5,total,bloco_total,221,left_hip,271.09
+GRU,10,total,bloco_total,221,left_hip,276.72
+GRU,20,total,bloco_total,221,left_hip,316.4
+GRU,5,total,bloco_total,221,right_hip,352.62
+GRU,10,total,bloco_total,221,right_hip,346.85
+GRU,20,total,bloco_total,221,right_hip,397.42
+GRU,5,total,bloco_total,254,left_elbow,1025.05
+GRU,5,total,bloco_total,263,left_shoulder,990.01
+GRU,5,total,bloco_total,263,left_elbow,1011.21
+GRU,10,total,bloco_total,263,left_elbow,679.05
+GRU,5,total,bloco_total,263,left_wrist,1082.11
+GRU,10,total,bloco_total,263,left_wrist,706.12
+GRU,5,natural,natural,264,left_hip,1015.56
+GRU,5,natural,natural,290,right_wrist,267.6
+GRU,10,natural,natural,290,right_wrist,272.02
+Transformer,5,natural,natural,211,right_ear,333.26
+Transformer,10,natural,natural,211,right_ear,322.67
+Transformer,5,total,bloco_total,221,left_shoulder,130.6
+Transformer,10,total,bloco_total,221,left_shoulder,136.26
+Transformer,20,total,bloco_total,221,left_shoulder,153.67
+Transformer,5,total,bloco_total,221,right_shoulder,304.93
+Transformer,10,total,bloco_total,221,right_shoulder,290.07
+Transformer,20,total,bloco_total,221,right_shoulder,331.13
+Transformer,5,total,bloco_total,221,left_elbow,92.16
+Transformer,10,total,bloco_total,221,left_elbow,64.61
+Transformer,20,total,bloco_total,221,left_elbow,81.45
+Transformer,5,total,bloco_total,221,right_elbow,318.02
+Transformer,10,total,bloco_total,221,right_elbow,298.04
+Transformer,20,total,bloco_total,221,right_elbow,351.66
+Transformer,5,total,bloco_total,221,left_wrist,271.69
+Transformer,10,total,bloco_total,221,left_wrist,263.87
+Transformer,20,total,bloco_total,221,left_wrist,309.63
+Transformer,5,total,bloco_total,221,right_wrist,444.66
+Transformer,10,total,bloco_total,221,right_wrist,422.49
+Transformer,20,total,bloco_total,221,right_wrist,494.75
+Transformer,5,total,bloco_total,221,left_hip,272.08
+Transformer,10,total,bloco_total,221,left_hip,278.69
+Transformer,20,total,bloco_total,221,left_hip,320.42
+Transformer,5,total,bloco_total,221,right_hip,356.25
+Transformer,10,total,bloco_total,221,right_hip,353.99
+Transformer,20,total,bloco_total,221,right_hip,411.18
+Transformer,5,total,bloco_total,254,left_elbow,1021.53
+Transformer,5,total,bloco_total,263,left_shoulder,992.03
+Transformer,5,total,bloco_total,263,left_elbow,1015.51
+Transformer,10,total,bloco_total,263,left_elbow,688.73
+Transformer,5,total,bloco_total,263,left_wrist,1085.41
+Transformer,10,total,bloco_total,263,left_wrist,712.09
+Transformer,5,natural,natural,264,left_hip,1025.37
+Transformer,5,natural,natural,290,right_wrist,265.59
+Transformer,10,natural,natural,290,right_wrist,269.38
+T-GNN,5,natural,natural,211,right_ear,334.01
+T-GNN,10,natural,natural,211,right_ear,324.08
+T-GNN,5,total,bloco_total,221,left_shoulder,130.15
+T-GNN,10,total,bloco_total,221,left_shoulder,135.98
+T-GNN,20,total,bloco_total,221,left_shoulder,152.91
+T-GNN,5,total,bloco_total,221,right_shoulder,304.69
+T-GNN,10,total,bloco_total,221,right_shoulder,290.16
+T-GNN,20,total,bloco_total,221,right_shoulder,330.08
+T-GNN,5,total,bloco_total,221,left_elbow,90.43
+T-GNN,10,total,bloco_total,221,left_elbow,64.81
+T-GNN,20,total,bloco_total,221,left_elbow,81.9
+T-GNN,5,total,bloco_total,221,right_elbow,313.55
+T-GNN,10,total,bloco_total,221,right_elbow,289.35
+T-GNN,20,total,bloco_total,221,right_elbow,333.3
+T-GNN,5,total,bloco_total,221,left_wrist,272.29
+T-GNN,10,total,bloco_total,221,left_wrist,265.71
+T-GNN,20,total,bloco_total,221,left_wrist,313.21
+T-GNN,5,total,bloco_total,221,right_wrist,443.31
+T-GNN,10,total,bloco_total,221,right_wrist,419.72
+T-GNN,20,total,bloco_total,221,right_wrist,490.33
+T-GNN,5,total,bloco_total,221,left_hip,272.11
+T-GNN,10,total,bloco_total,221,left_hip,278.36
+T-GNN,20,total,bloco_total,221,left_hip,318.42
+T-GNN,5,total,bloco_total,221,right_hip,355.15
+T-GNN,10,total,bloco_total,221,right_hip,351.87
+T-GNN,20,total,bloco_total,221,right_hip,407.29
+T-GNN,5,total,bloco_total,254,left_elbow,1026.89
+T-GNN,5,total,bloco_total,263,left_shoulder,986.86
+T-GNN,5,total,bloco_total,263,left_elbow,1020.19
+T-GNN,10,total,bloco_total,263,left_elbow,696.38
+T-GNN,5,total,bloco_total,263,left_wrist,1081.38
+T-GNN,10,total,bloco_total,263,left_wrist,697.0
+T-GNN,5,natural,natural,264,left_hip,1021.48
+T-GNN,5,natural,natural,290,right_wrist,266.88
+T-GNN,10,natural,natural,290,right_wrist,272.77

@@ -1,0 +1,71 @@
+dados:
+  sementes_dados: 20261113
+  quantidade_sequencias: 12
+  quadros_por_sequencia: 40
+  tamanho_imagem: 256
+  articulacoes_ocluiveis:
+  - 9
+  - 10
+  - 15
+  - 16
+  segmentos_ocluiveis:
+  - - 5
+    - 7
+    - 9
+  - - 6
+    - 8
+    - 10
+  - - 11
+    - 13
+    - 15
+  - - 12
+    - 14
+    - 16
+  probabilidade_oclusao_segmento: 0.5
+  percentual_articulacoes_ocultas: 1.0
+  duracoes_oclusao_teste:
+  - 5
+  condicoes_oclusao_teste:
+  - nome: articulacoes_distais
+    articulacoes:
+    - 9
+    - 10
+    - 15
+    - 16
+  - nome: membro_completo
+    segmentos:
+    - - 5
+      - 7
+      - 9
+    - - 6
+      - 8
+      - 10
+    - - 11
+      - 13
+      - 15
+    - - 12
+      - 14
+      - 16
+  duracao_oclusao_treino: 5
+  ruido_observacao_px: 1.5
+treinamento:
+  tamanho_janela: 10
+  horizontes_previsao:
+  - 5
+  - 10
+  - 20
+  proporcoes_split:
+  - 0.7
+  - 0.15
+  - 0.15
+  sementes_execucao:
+  - 11
+  epocas: 2
+  paciencia: 2
+  batch_size: 16
+  learning_rate: 0.001
+  peso_pontos_ocultos: 2.0
+  dimensao_oculta: 64
+  dispositivo: auto
+resultados:
+  diretorio: resultados/comparacao_cinco_metodos

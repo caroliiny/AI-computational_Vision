@@ -1,0 +1,174 @@
+{
+ "origens": [
+  355,
+  396,
+  400,
+  401,
+  402,
+  403,
+  404,
+  406,
+  407,
+  412,
+  455,
+  458,
+  460,
+  471
+ ],
+ "eventos": [
+  {
+   "t0": 355,
+   "junta": 7,
+   "duracao": 10,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 355,
+   "junta": 9,
+   "duracao": 12,
+   "cenario": "natural",
+   "categoria": "natural"
+  },
+  {
+   "t0": 396,
+   "junta": 7,
+   "duracao": 7,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 396,
+   "junta": 9,
+   "duracao": 10,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 400,
+   "junta": 0,
+   "duracao": 12,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 401,
+   "junta": 2,
+   "duracao": 11,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 402,
+   "junta": 10,
+   "duracao": 10,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 403,
+   "junta": 8,
+   "duracao": 9,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 404,
+   "junta": 14,
+   "duracao": 8,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 406,
+   "junta": 4,
+   "duracao": 6,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 406,
+   "junta": 6,
+   "duracao": 6,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 407,
+   "junta": 12,
+   "duracao": 5,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 407,
+   "junta": 13,
+   "duracao": 14,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 412,
+   "junta": 7,
+   "duracao": 49,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 412,
+   "junta": 9,
+   "duracao": 48,
+   "cenario": "pilar_largo",
+   "categoria": "grande"
+  },
+  {
+   "t0": 455,
+   "junta": 10,
+   "duracao": 30,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 458,
+   "junta": 14,
+   "duracao": 41,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 460,
+   "junta": 8,
+   "duracao": 22,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 471,
+   "junta": 9,
+   "duracao": 14,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 471,
+   "junta": 11,
+   "duracao": 10,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 471,
+   "junta": 12,
+   "duracao": 11,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  },
+  {
+   "t0": 471,
+   "junta": 13,
+   "duracao": 27,
+   "cenario": "muro_alto",
+   "categoria": "grande"
+  }
+ ]
+}

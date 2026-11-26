@@ -1,0 +1,143 @@
+{
+  "fps": 30.001442377037357,
+  "largura": 640,
+  "altura": 360,
+  "n_quadros": 416,
+  "semente": 0,
+  "cenarios": [
+    {
+      "id": 0,
+      "tipo": "muro_baixo_pernas",
+      "categoria": "parcial",
+      "ini": 25,
+      "fim": 80,
+      "retangulo": [
+        273,
+        236,
+        389,
+        360
+      ],
+      "fracao_cobertura": 0.235,
+      "juntas_cobertas": [
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 1,
+      "tipo": "pilar_estreito",
+      "categoria": "parcial",
+      "ini": 106,
+      "fim": 135,
+      "retangulo": [
+        306,
+        0,
+        331,
+        360
+      ],
+      "fracao_cobertura": 0.265,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear"
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "bloco_quase_total",
+      "categoria": "quase_total",
+      "ini": 161,
+      "fim": 220,
+      "retangulo": [
+        253,
+        76,
+        377,
+        360
+      ],
+      "fracao_cobertura": 0.882,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 3,
+      "tipo": "bloco_total",
+      "categoria": "total",
+      "ini": 246,
+      "fim": 297,
+      "retangulo": [
+        241,
+        22,
+        385,
+        360
+      ],
+      "fracao_cobertura": 1.0,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ]
+    },
+    {
+      "id": 4,
+      "tipo": "pilar_largo",
+      "categoria": "grande",
+      "ini": 323,
+      "fim": 369,
+      "retangulo": [
+        255,
+        0,
+        330,
+        360
+      ],
+      "fracao_cobertura": 0.73,
+      "juntas_cobertas": [
+        "nose",
+        "left_eye",
+        "right_eye",
+        "left_ear",
+        "right_ear",
+        "right_shoulder",
+        "right_elbow",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "right_knee",
+        "right_ankle"
+      ]
+    }
+  ]
+}
